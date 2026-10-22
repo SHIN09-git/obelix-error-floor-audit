@@ -1,0 +1,6 @@
+[
+  {"filename":"upstream_parse.py.txt","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/parse.py","format":"text","role":"read_only_benchmark_parser","expected_git_blob":"07e580f231669c3b27f490f17ce3630373aa7e1d"},
+  {"filename":"gneiting2011_point_forecasts.pdf","url":"https://www.bundesbank.de/resource/blob/635562/7d3de0f3fc003e5b4864828143f268cf/mL/2012-06-01-eltville-11-gneiting-paper-data.pdf","format":"pdf","role":"existing_theory_not_claimed_as_new","doi":"10.1198/jasa.2011.r10138"},
+  {"filename":"repository_issue_comments.json","url":"https://api.github.com/repos/NRC-Mila/OBELiX/issues/comments?per_page=100","format":"json","role":"limited_correction_context_read_only"},
+  {"filename":"gneiting_point_forecasts_arxiv.pdf","url":"https://arxiv.org/pdf/0912.0902","format":"pdf","role":"author_preprint_of_existing_theory","doi":"10.1198/jasa.2011.r10138"}
+]

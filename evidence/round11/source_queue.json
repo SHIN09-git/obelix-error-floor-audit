@@ -1,0 +1,7 @@
+[
+  {"filename":"obelix_published_rsc.html","url":"https://pubs.rsc.org/en/content/articlehtml/2026/dd/d5dd00441a","format":"html","role":"version_of_record_candidate","doi":"10.1039/D5DD00441A"},
+  {"filename":"obelix_published_nrc.pdf","url":"https://publications-cnrc.canada.ca/eng/view/ft/?id=4dcb4c14-e9e4-4dbd-af9e-bb308e63c213","format":"pdf","role":"institutional_version_of_record_candidate","doi":"10.1039/D5DD00441A"},
+  {"filename":"upstream_analysis.py.txt","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/scripts/analysis.py","format":"text","role":"read_only_upstream_recipe_not_to_execute","expected_git_blob":"0067d789b42f61509d07961ec3c98eff6c71a763"},
+  {"filename":"upstream_train.csv","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/train.csv","format":"csv","role":"pinned_official_train_membership","expected_git_blob":"c8bc775f2f93c38e59c723f54be0b31e18bc0bd0"},
+  {"filename":"upstream_test.csv","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/test.csv","format":"csv","role":"pinned_official_test_membership","expected_git_blob":"ce1571bbb524a465840dceef0d3463755bd459f6"}
+]

@@ -1,0 +1,16 @@
+{
+  "release_version": "1.0.0",
+  "original_analysis_date": "2026-10-11",
+  "public_preparation_date": "2026-10-22",
+  "original_portable_archive": {
+    "filename": "obelix_error_floor_audit_repro.zip",
+    "sha256": "c14c424f976270a42736a82edec39802298eedfa1a7ab6a7bbdee0464180cb57"
+  },
+  "upstream_commit": "4eaac889809dd489e3bae468c45d5c0e02b9147a",
+  "scientific_body_unchanged": true,
+  "scientific_body_sha256": "e89f6c27a5bc431fa5d801deff64845113ab23c57da52a1e3ca4d16a2ed4c355",
+  "references_unchanged": true,
+  "original_package_manifest": "provenance/original_package_manifest.json",
+  "historical_manifest_scope": "Historical archive only. It describes old README and PDF bytes. RELEASE_MANIFEST.json is authoritative for this release.",
+  "undistributed_references": "Original-paper PDFs, prior project observations, review authorization record and round10 history remain outside this public release. Their historical paths are provenance, not promised portable files."
+}

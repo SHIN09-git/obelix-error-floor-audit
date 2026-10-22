@@ -1,0 +1,5 @@
+# Optional manuscript rendering only; numerical reproduction needs no packages.
+reportlab==4.4.9
+matplotlib==3.10.7
+Pillow==12.3.0
+

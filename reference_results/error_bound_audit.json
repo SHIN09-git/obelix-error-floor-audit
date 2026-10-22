@@ -1,0 +1,552 @@
+{
+  "as_of": "2026-10-11",
+  "upstream_commit": "4eaac889809dd489e3bae468c45d5c0e02b9147a",
+  "method": "Independent stdlib implementation; raw published data unchanged; upstream code inspected, not executed.",
+  "model_trained": false,
+  "uses_evaluation_labels": true,
+  "censored_rows_in_full": 37,
+  "censored_rows_in_repeated_subset": 0,
+  "official_group_split_preserved": true,
+  "same_DOI_string_overlap_train_test": [],
+  "sources": [
+    {
+      "path": "evidence/round3/upstream_processed.csv",
+      "bytes": 62547,
+      "sha256": "2a57b4b4287bd56e774402c8aec313f44c33df74d26a32e4bc3196e40b051474",
+      "git_blob_sha1": "dccc35d435ed96599f3b6776a6a9785748dc9ee1"
+    },
+    {
+      "path": "evidence/round3/upstream_all.csv",
+      "bytes": 114856,
+      "sha256": "54f6265ef84d16a919d08c6815f14b0fd7465fa00090bee2511c16c042e57f3c",
+      "git_blob_sha1": "8b2fdc199f71bac227d0b6c7be21a5a0b5034227"
+    },
+    {
+      "path": "evidence/round11/obelix_published_nrc.pdf",
+      "bytes": 1571468,
+      "sha256": "e35bbfa081d1e3e05250e9ce52cfd1f57dea34c968729304afe4d476ec7d1ad0",
+      "git_blob_sha1": "c8d4d11bcd15a33472fb7e7e8c489790439f8312",
+      "url": "https://publications-cnrc.canada.ca/eng/view/ft/?id=4dcb4c14-e9e4-4dbd-af9e-bb308e63c213"
+    },
+    {
+      "path": "evidence/round11/upstream_analysis.py.txt",
+      "bytes": 16310,
+      "sha256": "aff4bd33cf94eac21331f06e8c7ba252f7e0f4c2db1b61f021bf6507ed582dd7",
+      "git_blob_sha1": "0067d789b42f61509d07961ec3c98eff6c71a763",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/scripts/analysis.py",
+      "expected_git_blob": "0067d789b42f61509d07961ec3c98eff6c71a763",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_train.csv",
+      "bytes": 91889,
+      "sha256": "01d87779862807e24bc45bb2c759852f892390b99f9340f13906c54805aa8776",
+      "git_blob_sha1": "c8bc775f2f93c38e59c723f54be0b31e18bc0bd0",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/train.csv",
+      "expected_git_blob": "c8bc775f2f93c38e59c723f54be0b31e18bc0bd0",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_test.csv",
+      "bytes": 23220,
+      "sha256": "b2c266eb74e22f403743d52959bea7c43b1531a850994870a70dd909200e5297",
+      "git_blob_sha1": "ce1571bbb524a465840dceef0d3463755bd459f6",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/test.csv",
+      "expected_git_blob": "ce1571bbb524a465840dceef0d3463755bd459f6",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_RF.py.txt",
+      "bytes": 3336,
+      "sha256": "acb25a79d4d2393cd368012fc60b5960b2aa747e9634b890ea4cc9c7e484d87e",
+      "git_blob_sha1": "293c056886351e966ceefd4c53862998a0edc1ac",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/RF.py",
+      "expected_git_blob": "293c056886351e966ceefd4c53862998a0edc1ac",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_MLP.py.txt",
+      "bytes": 4512,
+      "sha256": "390b2e961eda622e4528d2fe60a7f3b4938901f0652b25f789cd340e9651a610",
+      "git_blob_sha1": "4a4480022dc390a04cf278038478fad316a1fac2",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/MLP.py",
+      "expected_git_blob": "4a4480022dc390a04cf278038478fad316a1fac2",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_test_idx.csv",
+      "bytes": 486,
+      "sha256": "0ad4cfaf5a61e85e228b2e0782a97b01469d08ac481b553622b91035a8ec719d",
+      "git_blob_sha1": "e7fe2bf9f02b8a8c54eca5484e5fc09b9ffd2bcd",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/test_idx.csv",
+      "expected_git_blob": "e7fe2bf9f02b8a8c54eca5484e5fc09b9ffd2bcd",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/repository_issues.json",
+      "bytes": 61179,
+      "sha256": "16a24748a62500cc384409b4b362888f561e70e7268db626f76b2d6ec3105682",
+      "git_blob_sha1": "0f4503f1c681f6979a49861885dc787f491df22c",
+      "url": "https://api.github.com/repos/NRC-Mila/OBELiX/issues?state=all&per_page=100"
+    },
+    {
+      "path": "evidence/round11/published_crossref.json",
+      "bytes": 14373,
+      "sha256": "4101ee3f48e9c05a54e2d6e32819a390e565f9a6b2c19e7ace00b3fe6f6e4b1e",
+      "git_blob_sha1": "462a2bb550baebdde61d8df2be1cc74a221fb693",
+      "url": "https://api.crossref.org/works/10.1039%2FD5DD00441A"
+    },
+    {
+      "path": "evidence/round11/upstream_parse.py.txt",
+      "bytes": 1416,
+      "sha256": "e7fa4a6e4cc13112ab0a55f3afdca22c9e741d20c36453b6a5b349bb5ea5f52a",
+      "git_blob_sha1": "07e580f231669c3b27f490f17ce3630373aa7e1d",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/parse.py",
+      "expected_git_blob": "07e580f231669c3b27f490f17ce3630373aa7e1d",
+      "pinned_blob_matches": true
+    },
+    {
+      "path": "evidence/round11/repository_issue_comments.json",
+      "bytes": 26867,
+      "sha256": "dbe7e8992d0d1c3e4d240ac778426f8a3f214925e239c71f0e008c457adf9038",
+      "git_blob_sha1": "b9d2dd743c9bbba2ddc6fcd1b2a079abdfe0e146",
+      "url": "https://api.github.com/repos/NRC-Mila/OBELiX/issues/comments?per_page=100"
+    },
+    {
+      "path": "evidence/round11/gneiting_point_forecasts_arxiv.pdf",
+      "bytes": 381918,
+      "sha256": "6b6cc2f0fd3daa1da42506f42f05fe88425880b2806f864ceaab85fc606ab5c9",
+      "git_blob_sha1": "bb1299f73b562305f227d3b5669c09b9506215c9",
+      "url": "https://arxiv.org/pdf/0912.0902"
+    }
+  ],
+  "scenarios": {
+    "full_processed__composition_spacegroup": {
+      "rows": 599,
+      "groups": 525,
+      "repeated_groups": 48,
+      "repeated_rows": 122,
+      "singleton_rows": 477,
+      "sum_absolute_deviations_dex": 49.74585014457541,
+      "repeated_subset_MAD_dex": 0.4077528700375033,
+      "repeated_subset_RMS_deviation_dex": 0.6295124505562297,
+      "all_rows_group_constant_oracle_MAE_dex": 0.08304816384737129,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "full_processed__plus_recorded_lattice": {
+      "rows": 599,
+      "groups": 599,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 599,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "full_processed__canonical_element_counts_plus_lattice": {
+      "rows": 599,
+      "groups": 599,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 599,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_train__composition_spacegroup": {
+      "rows": 478,
+      "groups": 407,
+      "repeated_groups": 45,
+      "repeated_rows": 116,
+      "singleton_rows": 362,
+      "sum_absolute_deviations_dex": 46.06139167150147,
+      "repeated_subset_MAD_dex": 0.3970809626853575,
+      "repeated_subset_RMS_deviation_dex": 0.6198222912295174,
+      "all_rows_group_constant_oracle_MAE_dex": 0.09636274408263905,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_train__plus_recorded_lattice": {
+      "rows": 478,
+      "groups": 478,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 478,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_train__canonical_element_counts_plus_lattice": {
+      "rows": 478,
+      "groups": 478,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 478,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_test__composition_spacegroup": {
+      "rows": 121,
+      "groups": 118,
+      "repeated_groups": 3,
+      "repeated_rows": 6,
+      "singleton_rows": 115,
+      "sum_absolute_deviations_dex": 3.684458473073939,
+      "repeated_subset_MAD_dex": 0.6140764121789898,
+      "repeated_subset_RMS_deviation_dex": 0.7939396351598741,
+      "all_rows_group_constant_oracle_MAE_dex": 0.030450070025404456,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_test__plus_recorded_lattice": {
+      "rows": 121,
+      "groups": 121,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 121,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "official_test__canonical_element_counts_plus_lattice": {
+      "rows": 121,
+      "groups": 121,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 121,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_only__composition_spacegroup": {
+      "rows": 562,
+      "groups": 488,
+      "repeated_groups": 48,
+      "repeated_rows": 122,
+      "singleton_rows": 440,
+      "sum_absolute_deviations_dex": 49.74585014457541,
+      "repeated_subset_MAD_dex": 0.4077528700375033,
+      "repeated_subset_RMS_deviation_dex": 0.6295124505562297,
+      "all_rows_group_constant_oracle_MAE_dex": 0.08851574758821247,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_only__plus_recorded_lattice": {
+      "rows": 562,
+      "groups": 562,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 562,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_only__canonical_element_counts_plus_lattice": {
+      "rows": 562,
+      "groups": 562,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 562,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_test__composition_spacegroup": {
+      "rows": 113,
+      "groups": 110,
+      "repeated_groups": 3,
+      "repeated_rows": 6,
+      "singleton_rows": 107,
+      "sum_absolute_deviations_dex": 3.684458473073939,
+      "repeated_subset_MAD_dex": 0.6140764121789898,
+      "repeated_subset_RMS_deviation_dex": 0.7939396351598741,
+      "all_rows_group_constant_oracle_MAE_dex": 0.03260582719534459,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_test__plus_recorded_lattice": {
+      "rows": 113,
+      "groups": 113,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 113,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "uncensored_test__canonical_element_counts_plus_lattice": {
+      "rows": 113,
+      "groups": 113,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 113,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_available__composition_spacegroup": {
+      "rows": 321,
+      "groups": 293,
+      "repeated_groups": 17,
+      "repeated_rows": 45,
+      "singleton_rows": 276,
+      "sum_absolute_deviations_dex": 23.793100431105422,
+      "repeated_subset_MAD_dex": 0.528735565135676,
+      "repeated_subset_RMS_deviation_dex": 0.8048327544908985,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0741218081965901,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_available__plus_recorded_lattice": {
+      "rows": 321,
+      "groups": 321,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 321,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_available__canonical_element_counts_plus_lattice": {
+      "rows": 321,
+      "groups": 321,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 321,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_official_test__composition_spacegroup": {
+      "rows": 67,
+      "groups": 66,
+      "repeated_groups": 1,
+      "repeated_rows": 2,
+      "singleton_rows": 65,
+      "sum_absolute_deviations_dex": 2.6478174818886373,
+      "repeated_subset_MAD_dex": 1.3239087409443187,
+      "repeated_subset_RMS_deviation_dex": 1.3239087409443187,
+      "all_rows_group_constant_oracle_MAE_dex": 0.039519663908785634,
+      "columns": [
+        "Composition",
+        "Space group number"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_official_test__plus_recorded_lattice": {
+      "rows": 67,
+      "groups": 67,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 67,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "Composition",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    },
+    "CIF_official_test__canonical_element_counts_plus_lattice": {
+      "rows": 67,
+      "groups": 67,
+      "repeated_groups": 0,
+      "repeated_rows": 0,
+      "singleton_rows": 67,
+      "sum_absolute_deviations_dex": 0,
+      "repeated_subset_MAD_dex": null,
+      "repeated_subset_RMS_deviation_dex": null,
+      "all_rows_group_constant_oracle_MAE_dex": 0.0,
+      "columns": [
+        "element_amounts",
+        "Space group number",
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "interpretation": "Finite-sample minimum over arbitrary functions constant on these recorded-input groups; evaluation labels used. Not predictive performance or an estimated population noise floor."
+    }
+  },
+  "limitations": [
+    "Coarse grouping follows exact stored composition strings and space groups, as in the authors' analysis.",
+    "Exact lattice equality refers to recorded values, not physical equivalence or informative signal.",
+    "Zero empirical full-input inconsistency does not imply zero irreducible uncertainty or achievable held-out error.",
+    "Censored values in processed.csv are analysis placeholders; retained only for exact recipe reproduction and separately excluded.",
+    "No GNN representation equivalence, full CIF identity, or measured sample identity is asserted."
+  ]
+}

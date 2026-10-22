@@ -1,0 +1,14 @@
+* text=auto eol=lf
+# Frozen research files retain their exact bytes on every platform.
+evidence/** -text
+sources/** -text
+reference_results/** -text
+reports/round11/ANALYTICAL_NOTE.md -text
+reports/round11/SELF_REVIEW.md -text
+provenance/original_package_manifest.json -text
+reports/round11/repeated_group_audit.json -text
+reports/round11/repeated_groups.csv -text
+scripts/audit_obelix_error_bound.py -text
+scripts/verify_obelix_error_bound.py -text
+output/**/*.pdf binary
+

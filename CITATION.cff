@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript below when using this audit; also cite OBELiX when using its data."
+type: software
+title: "OBELiX error-floor audit: reproducible analysis and manuscript"
+version: 1.0.0
+authors:
+  - family-names: JIN
+    given-names: HANZHE
+    affiliation: "Independent Researcher, Chongqing, China"
+    email: jinhanzhe09@gmail.com
+abstract: >-
+  Version-specific numerical and methodological audit of the interpretation of
+  repeated-composition dispersion as a universal prediction-error floor.
+  The audit reproduces the reported statistic and distinguishes descriptive
+  finite-set minima from predictive performance and population noise.
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - OBELiX
+  - reproducibility
+  - solid electrolytes
+  - mean absolute error
+  - uncertainty
+preferred-citation:
+  type: report
+  title: "Repeated-composition dispersion does not identify a universal prediction-error floor: A reproducible audit of OBELiX, with a LATP source case"
+  authors:
+    - family-names: JIN
+      given-names: HANZHE
+      affiliation: "Independent Researcher, Chongqing, China"
+  year: 2026
+  version: 1.0.0
+  notes: "Research manuscript; not submitted to a journal or peer reviewed. Public-release preparation dated 2026-10-22; analysis dated 2026-10-11."
+

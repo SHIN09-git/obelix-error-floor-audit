@@ -1,0 +1,7 @@
+[
+  {"filename":"upstream_RF.py.txt","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/RF.py","format":"text","role":"read_only_benchmark_input_definition","expected_git_blob":"293c056886351e966ceefd4c53862998a0edc1ac"},
+  {"filename":"upstream_MLP.py.txt","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/MLP.py","format":"text","role":"read_only_benchmark_input_definition","expected_git_blob":"4a4480022dc390a04cf278038478fad316a1fac2"},
+  {"filename":"upstream_test_idx.csv","url":"https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/test_idx.csv","format":"csv","role":"analysis_script_official_split_ids","expected_git_blob":"e7fe2bf9f02b8a8c54eca5484e5fc09b9ffd2bcd"},
+  {"filename":"repository_issues.json","url":"https://api.github.com/repos/NRC-Mila/OBELiX/issues?state=all&per_page=100","format":"json","role":"limited_correction_context_read_only"},
+  {"filename":"published_crossref.json","url":"https://api.crossref.org/works/10.1039%2FD5DD00441A","format":"json","role":"publication_and_registered_updates_metadata"}
+]

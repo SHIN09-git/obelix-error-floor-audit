@@ -1,0 +1,163 @@
+{
+  "version": "round5-2026-10-11",
+  "method": "AI transcription of supplied original PDFs, checked against rendered pages; arithmetic is separate from reported observations",
+  "review_status": "ai_source_verified",
+  "reviewer": "Codex (AI)",
+  "review_authorization": "evidence/round5/review_authorization.json",
+  "review_scope": "Printed values, labels and locations checked in rendered originals; unresolved mappings remain unresolved",
+  "eligible_for_descriptive_source_audit": true,
+  "human_verified": false,
+  "main_analysis_eligible": false,
+  "frozen_observations_modified": false,
+  "composition_nominal": "Li1.3Al0.3Ti1.7(PO4)3",
+  "independent_batch_count": null,
+  "specimen_count": null,
+  "missing_count_reason": "Published rows and ranges do not establish independently prepared batches or unique pellets",
+  "sources": [
+    {
+      "source_id": "aono1990",
+      "doi": "10.1149/1.2086597",
+      "title": "Ionic Conductivity of Solid Electrolytes Based on Lithium Titanium Phosphate",
+      "authors": ["Hiromichi Aono", "Eisuke Sugimoto", "Yoshihiko Sadaoka", "Nobuhito Imanaka", "Gin-ya Adachi"],
+      "journal": "Journal of The Electrochemical Society",
+      "volume": 137,
+      "issue": 4,
+      "year": 1990,
+      "printed_pages": "1023-1027",
+      "file": "evidence/round5/aono1990_original.pdf",
+      "sha256": "c23145cd47d9afff97b8cc30f07095a16dbb6cff953b5bc4639472806d76317d",
+      "text_pages_read": [1, 2, 3, 4, 5],
+      "rendered_pages_visually_checked_by_AI": [1, 3, 4],
+      "identity_basis": "Original title, authors, journal, volume and pagination match previously checked DOI metadata; DOI is not printed on the article first page",
+      "reported_pair": {
+        "location": {"pdf_page": 4, "printed_page": 1026, "table": "IV", "row": "Li1.3Al0.3Ti1.7(PO4)3"},
+        "pair_level": "same published table row; physical pellet and independent batch identity not supplied",
+        "grain_boundary_kind": "reported grain-boundary conductivity; series/apparent interpretation only, specific boundary geometry not established",
+        "raw_impedance_available": false,
+        "fit_independently_validated": false
+      },
+      "preparation": {
+        "route": "solid-state reaction and wet ball milling",
+        "precursors_for_Al_substitution": ["Li2CO3", "Al2O3", "TiO2", "(NH4)2HPO4"],
+        "stoichiometry": "nominally stoichiometric feed; no quantitative composition assay established for the table IV Al row",
+        "calcination_temperature_K": 1173,
+        "calcination_hours_each": 2,
+        "sequence": "heat 2 h, wet ball mill 6 h, reheat 2 h, ball mill 12 h",
+        "pressing_pressure_Pa": 100000000,
+        "organic_binder": "an unspecified amount of 3% PVA solution; distinct from retained Li2O/Li4P2O7 additives in Table III",
+        "sintering_temperature_K_range": [1253, 1273],
+        "sintering_temperature_scope": "Table I Al substitution series x=0.2-0.5, not an exact temperature assigned to x=0.3",
+        "sintering_hours": 2,
+        "sintering_atmosphere": null,
+        "porosity_percent_x03": 4.1,
+        "porosity_method": "Archimedes",
+        "final_thickness_cm": null,
+        "electrode_area_cm2": null,
+        "missing_geometry_reason": "No row-specific final dimensions located",
+        "location": {"pdf_page": 1, "printed_page": 1023, "section": "Experimental and Table I"}
+      },
+      "measurement": {
+        "temperature_raw": "298 K",
+        "temperature_K": 298,
+        "temperature_C_converted": 24.85,
+        "temperature_transformation": "T_C=T_K-273.15; conversion is not temperature normalization to 25 C",
+        "electrodes": "vacuum-evaporated Au on both polished pellet faces",
+        "instruments": ["HP Vector impedance meter 4800A", "HP LCZ 4276A", "HP LCZ 4277A"],
+        "pre_measurement_heating_K": 473,
+        "pre_measurement_purpose": "remove adsorbed water",
+        "measurement_atmosphere": null,
+        "frequency_range_Hz": null,
+        "excitation_amplitude_V": null,
+        "missing_conditions_reason": "Not explicitly established in the supplied five-page paper",
+        "location": {"pdf_pages": [1, 4], "printed_pages": [1023, 1026]}
+      }
+    },
+    {
+      "source_id": "cretin1999",
+      "doi": "10.1016/S0955-2219(99)00055-2",
+      "title": "Comparative Study of Lithium Ion Conductors in the System Li1+xAlxA2−xIV(PO4)3 with AIV=Ti or Ge and 0≤x≤0.7 for Use as Li+ Sensitive Membranes",
+      "title_notation": "IV is the superscript oxidation state of A, not a separate element or subscript",
+      "authors": ["M. Cretin", "P. Fabry"],
+      "journal": "Journal of the European Ceramic Society",
+      "volume": 19,
+      "year": 1999,
+      "printed_pages": "2931-2940",
+      "file": "evidence/round5/cretin_fabry1999_original.pdf",
+      "sha256": "49804eff58190099f2794de4856ebbec51df0acbd9f341a3f80201066827cddd",
+      "text_pages_read": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "rendered_pages_visually_checked_by_AI": [1, 3, 5, 6, 7, 8],
+      "identity_basis": "Title, authors, journal, pagination and first-page PII S0955-2219(99)00055-2 match DOI metadata",
+      "preparation": {
+        "routes": {
+          "CG": {
+            "name": "co-grinding",
+            "precursors": ["Li2CO3", "Al2O3", "TiO2", "(NH4)2HPO4"],
+            "initial_grinding_hours_approx": 100,
+            "medium": "ethanol",
+            "grinding_balls": "zirconia",
+            "calcination_temperature_C": 900,
+            "calcination_hours": 2,
+            "calcination_repetition_raw": "last calcination and grinding steps repeated twice",
+            "pressing_pressure_bar": 3500
+          },
+          "SG": {
+            "name": "sol-gel",
+            "precursors_for_Ti": ["Ti(OC4H9)4", "Al(OC4H9)3", "CH3COOLi·2H2O", "NH4H2PO4"],
+            "hydrolysis_ratio_approx": 400,
+            "drying": "freeze drying",
+            "pre_press_calcination_temperature_C_approx": 500,
+            "calcination_temperature_scope": "depends on composition; not an exact row-specific schedule",
+            "pressing_pressure_bar": 2500
+          }
+        },
+        "table1_x03_sintering": {"CG": {"temperature_C": 1000, "hours": 2}, "SG": {"temperature_C": 1000, "hours": 2}},
+        "fig5_x03_XRD_caption_temperature_C": 950,
+        "sintering_mapping_issue": "Table 1 says 1000 C while Fig.5 labels the XRD specimens 950 C. Distinct specimens or reporting discrepancy unresolved; do not join XRD and transport as the same pellet",
+        "composition_table2_percent_error_vs_stoichiometry": {
+          "CG_x03": {"Li": -11.5, "Al": -17.5, "Ti": -1.5, "P": -12, "O": -8},
+          "SG_x03": {"Li": 2.5, "Al": 1, "Ti": -10, "P": -18.5, "O": -4}
+        },
+        "composition_issue": "Authors' elemental-analysis percent errors preserved; nominally identical formula does not establish identical actual composition. Do not infer new stoichiometric formulas from these errors alone",
+        "density_scope": "85-93% of theoretical density for LATP series; not assigned to a specific transport pellet",
+        "sintering_atmosphere": null,
+        "final_thickness_cm": null,
+        "electrode_area_cm2": null,
+        "location": {"pdf_pages": [2, 3, 4, 5], "printed_pages": [2932, 2933, 2934, 2935]}
+      },
+      "measurement": {
+        "instrument": "HP 4192 ALF",
+        "frequency_range_Hz": [5, 13000000],
+        "excitation_amplitude_V": 0.1,
+        "atmosphere": "primary vacuum",
+        "electrodes": "evaporated Au blocking electrodes",
+        "temperature_method_description_C": [25, 200],
+        "temperature_assignment": "Record-specific temperatures take precedence for transcription; retain table/text conflicts, do not assume every RT value means 25 C",
+        "location": {"pdf_page": 3, "printed_page": 2933, "section": "3.1"},
+        "grain_separation_limit": "For Ti compounds, grain and boundary relaxation frequencies were close and separation was difficult; only x=0.3 reported in Table 7",
+        "grain_geometry": "Authors used the pellet geometric factor to calculate grain conductivity (PDF p8)",
+        "raw_impedance_available": false,
+        "fit_independently_validated": false
+      }
+    }
+  ],
+  "records": [
+    {"id": "aono_t4_bulk", "source_id": "aono1990", "report_group": "aono_t4_x03", "quantity": "bulk_conductivity", "raw_value": "3 × 10^-3", "value": 0.003, "unit": "S/cm", "temperature_raw": "298 K", "temperature_K": 298, "temperature_C": 24.85, "synthesis_route": "solid-state", "location": {"pdf_page": 4, "printed_page": 1026, "table": "IV", "column": "sigma_b"}},
+    {"id": "aono_t4_gb", "source_id": "aono1990", "report_group": "aono_t4_x03", "quantity": "reported_grain_boundary_conductivity_apparent_interpretation", "raw_value": "9 × 10^-4", "value": 0.0009, "unit": "S/cm", "temperature_raw": "298 K", "temperature_K": 298, "temperature_C": 24.85, "synthesis_route": "solid-state", "location": {"pdf_page": 4, "printed_page": 1026, "table": "IV", "column": "sigma_g"}},
+    {"id": "aono_t4_total", "source_id": "aono1990", "report_group": "aono_t4_x03", "quantity": "total_conductivity", "raw_value": "7 × 10^-4", "value": 0.0007, "unit": "S/cm", "temperature_raw": "298 K", "temperature_K": 298, "temperature_C": 24.85, "synthesis_route": "solid-state", "location": {"pdf_page": 4, "printed_page": 1026, "table": "IV", "column": "sigma_b+g"}, "corroboration": "Abstract and conclusions repeat this maximum for Al and Sc; no new measurement is created from those repeats"},
+    {"id": "cretin_text_CG_total", "source_id": "cretin1999", "report_group": "cretin_text_CG_x03", "quantity": "total_conductivity", "raw_value": "10^-4", "value": 0.0001, "unit": "S/cm", "temperature_raw": "room temperature", "temperature_C": null, "synthesis_route": "CG", "location": {"pdf_page": 6, "printed_page": 2936, "section": "3.2.3", "figure_context": "8"}, "mapping_limit": "Fig.7 caption specifies 25 C but does not identify which preparation route; do not transfer its temperature to this scalar without evidence"},
+    {"id": "cretin_text_SG_total", "source_id": "cretin1999", "report_group": "cretin_text_SG_x03", "quantity": "total_conductivity", "raw_value": "1.5 × 10^-5", "value": 0.000015, "unit": "S/cm", "temperature_raw": "room temperature", "temperature_C": null, "synthesis_route": "SG", "location": {"pdf_page": 6, "printed_page": 2936, "section": "3.2.3", "figure_context": "8"}, "mapping_limit": "Equals lower endpoint of Table 6 range; not counted as a separate independent batch"},
+    {"id": "cretin_t6_SG_total_range", "source_id": "cretin1999", "report_group": "cretin_text_SG_x03", "quantity": "total_conductivity_range", "raw_value": "1.5 to 6 × 10^-5", "value": null, "low": 0.000015, "high": 0.00006, "unit": "S/cm", "temperature_raw": "room temperature", "temperature_C": null, "synthesis_route": "SG", "location": {"pdf_page": 7, "printed_page": 2937, "table": "6", "row": "A=Ti; sigma_T", "column": "x=0.3"}, "range_semantics": "Reported range; endpoints are not assigned to identifiable separate pellets; not a mean, confidence interval or uniform probability distribution", "activation_energy_eV_reported": 0.39},
+    {"id": "cretin_t7_grain", "source_id": "cretin1999", "report_group": "cretin_t7_x03", "quantity": "grain_conductivity", "raw_value": "10^-3", "value": 0.001, "unit": "S/cm", "temperature_raw": "24 C", "temperature_C": 24, "synthesis_route": null, "location": {"pdf_page": 8, "printed_page": 2938, "table": "7", "row": "sigma_g", "column": "Ti-based; x=0.3 (24 C)"}, "conflict": "Abstract p1 says 25 C for 10^-3 S/cm; preserve 24 C in table record and retain conflict", "mapping_limit": "Table 7 does not specify route or link this row to the endpoints of Table 6; reported by these authors, not a 0.003 S/cm quote from Aono"},
+    {"id": "cretin_t7_blocking", "source_id": "cretin1999", "report_group": "cretin_t7_x03", "quantity": "grain_boundary_resistance_fraction_percent", "raw_value": "94", "value": 94, "unit": "%", "temperature_raw": "24 C", "temperature_C": 24, "synthesis_route": null, "location": {"pdf_page": 8, "printed_page": 2938, "table": "7", "row": "alpha_R", "column": "Ti-based; x=0.3 (24 C)"}, "definition": "100 × Rgb/RT; Eq.(1), PDF p7, printed p2937", "new_physical_measurement": false}
+  ],
+  "exclusions_and_unresolved": [
+    "AI source review is authorized by the user's 2026-10-11 reply. human_verified remains false; user upload and authorization are not scientific verification by a human",
+    "All new records are development/audit evidence, not an independent blind confirmation set",
+    "No newly admitted strict 25 C total-conductivity record; no interpolation or digitization performed",
+    "Aono Table III additive rows are outside the no-additive main layer and are not used to fill pure LATP processing conditions",
+    "Cretin Ge-based values, Fig.9 and Fig.10 refer to LAGP, not LATP; do not import their resistance decomposition into Ti rows",
+    "Cretin Table 7 route and relationship to Table 6 range remain unresolved",
+    "Neither 9s4 exact 0.000722 extraction nor kab historical midpoint operation is proven by public worksheet history",
+    "Liverpool 0.00216 (Aono) and 0.003 (Cretin) are not established as the original room-temperature row values by this audit"
+  ]
+}

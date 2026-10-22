@@ -1,0 +1,94 @@
+{
+  "cff_1_2_0_schema": "PASS",
+  "upstream_checks": [
+    {
+      "path": "evidence/round3/upstream_all.csv",
+      "upstream_path": "data/downloads/all.csv",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/all.csv",
+      "sha256": "54f6265ef84d16a919d08c6815f14b0fd7465fa00090bee2511c16c042e57f3c",
+      "bytes": 114856,
+      "matches": true
+    },
+    {
+      "path": "evidence/round3/upstream_processed.csv",
+      "upstream_path": "data/processed.csv",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/processed.csv",
+      "sha256": "2a57b4b4287bd56e774402c8aec313f44c33df74d26a32e4bc3196e40b051474",
+      "bytes": 62547,
+      "matches": true
+    },
+    {
+      "path": "evidence/round3/upstream_preprocessing.py.txt",
+      "upstream_path": "data/scripts/preprocessing.py",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/scripts/preprocessing.py",
+      "sha256": "cb26d9479002d89d16e7a6ea91ee2624dd95001ce97f038a58064d06e0772dcb",
+      "bytes": 14879,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_analysis.py.txt",
+      "upstream_path": "data/scripts/analysis.py",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/scripts/analysis.py",
+      "sha256": "aff4bd33cf94eac21331f06e8c7ba252f7e0f4c2db1b61f021bf6507ed582dd7",
+      "bytes": 16310,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_train.csv",
+      "upstream_path": "data/downloads/train.csv",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/train.csv",
+      "sha256": "01d87779862807e24bc45bb2c759852f892390b99f9340f13906c54805aa8776",
+      "bytes": 91889,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_test.csv",
+      "upstream_path": "data/downloads/test.csv",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/downloads/test.csv",
+      "sha256": "b2c266eb74e22f403743d52959bea7c43b1531a850994870a70dd909200e5297",
+      "bytes": 23220,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_test_idx.csv",
+      "upstream_path": "data/test_idx.csv",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/data/test_idx.csv",
+      "sha256": "0ad4cfaf5a61e85e228b2e0782a97b01469d08ac481b553622b91035a8ec719d",
+      "bytes": 486,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_RF.py.txt",
+      "upstream_path": "benchmark/RF.py",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/RF.py",
+      "sha256": "acb25a79d4d2393cd368012fc60b5960b2aa747e9634b890ea4cc9c7e484d87e",
+      "bytes": 3336,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_MLP.py.txt",
+      "upstream_path": "benchmark/MLP.py",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/MLP.py",
+      "sha256": "390b2e961eda622e4528d2fe60a7f3b4938901f0652b25f789cd340e9651a610",
+      "bytes": 4512,
+      "matches": true
+    },
+    {
+      "path": "evidence/round11/upstream_parse.py.txt",
+      "upstream_path": "benchmark/parse.py",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/benchmark/parse.py",
+      "sha256": "e7fa4a6e4cc13112ab0a55f3afdca22c9e741d20c36453b6a5b349bb5ea5f52a",
+      "bytes": 1416,
+      "matches": true
+    },
+    {
+      "path": "sources/obelix_LICENSE.txt",
+      "upstream_path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/NRC-Mila/OBELiX/4eaac889809dd489e3bae468c45d5c0e02b9147a/LICENSE.txt",
+      "sha256": "76f39f2a37c62c4ad0f56fdf5c299985e568a8f0b09b77bd147df5ba20e136b3",
+      "bytes": 17063,
+      "matches": true
+    }
+  ],
+  "all_upstream_files_match": true
+}

@@ -1,0 +1,3132 @@
+[
+  {
+    "composition": "Li12.0P4.0O16.0",
+    "space_group": "62",
+    "n": 2,
+    "IDs": [
+      "w7d",
+      "9lo"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1006/jssc.1995.1140",
+      "10.1021/acs.chemmater.8b01504"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -15.066856330457902,
+    "sum_absolute_deviations_dex": 4.619788758288394,
+    "MAD_dex": 2.309894379144197,
+    "log10_range": 4.619788758288394,
+    "records": [
+      {
+        "ID": "w7d",
+        "DOI": "10.1006/jssc.1995.1140",
+        "Ionic conductivity (S cm-1)": "4.2e-18",
+        "raw_y": "4.2e-18",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "6.1113",
+        "b": "10.4612",
+        "c": "4.9208",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "9lo",
+        "DOI": "10.1021/acs.chemmater.8b01504",
+        "Ionic conductivity (S cm-1)": "1.75e-13",
+        "raw_y": "1.75e-13",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "10.4772",
+        "b": "6.1179",
+        "c": "4.9297",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.09286782203665211,
+    "MAD_dex_excluding_this_group": 0.3760505115523918
+  },
+  {
+    "composition": "Li6.0Ti12.0P18.0O72.0",
+    "space_group": "167",
+    "n": 4,
+    "IDs": [
+      "qea",
+      "yp3",
+      "qno",
+      "rr5"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1007/s11164-013-1348-0",
+      "10.1016/j.ssi.2014.07.018",
+      "10.1021/jp973296c",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 4,
+    "median_log10_conductivity": -4.9604093769761874,
+    "sum_absolute_deviations_dex": 3.751254977182308,
+    "MAD_dex": 0.937813744295577,
+    "log10_range": 2.2741337224626452,
+    "records": [
+      {
+        "ID": "qea",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "2e-06",
+        "raw_y": "2e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.512",
+        "b": "8.512",
+        "c": "20.858",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "yp3",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "6e-05",
+        "raw_y": "6e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5087",
+        "b": "8.5087",
+        "c": "20.9089",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "qno",
+        "DOI": "10.1021/jp973296c",
+        "Ionic conductivity (S cm-1)": "3.83e-07",
+        "raw_y": "3.83e-07",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.509",
+        "b": "8.509",
+        "c": "20.853",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "rr5",
+        "DOI": "10.1007/s11164-013-1348-0",
+        "Ionic conductivity (S cm-1)": "7.2e-05",
+        "raw_y": "7.2e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.5135",
+        "b": "8.5135",
+        "c": "20.8705",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.07540840022394045,
+    "MAD_dex_excluding_this_group": 0.3897847048084161
+  },
+  {
+    "composition": "Li4.0P2.0S6.0",
+    "space_group": "162",
+    "n": 2,
+    "IDs": [
+      "0iv",
+      "2ro"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2015.10.015",
+      "10.1021/acs.chemmater.6b04175"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -8.20965153014378,
+    "sum_absolute_deviations_dex": 3.1724569744005873,
+    "MAD_dex": 1.5862284872002936,
+    "log10_range": 3.1724569744005873,
+    "records": [
+      {
+        "ID": "0iv",
+        "DOI": "10.1016/j.ssi.2015.10.015",
+        "Ionic conductivity (S cm-1)": "2.38e-07",
+        "raw_y": "2.38e-07",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "6.075",
+        "b": "6.075",
+        "c": "6.595",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "2ro",
+        "DOI": "10.1021/acs.chemmater.6b04175",
+        "Ionic conductivity (S cm-1)": "1.6e-10",
+        "raw_y": "1.6e-10",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "6.0773",
+        "b": "6.0773",
+        "c": "6.5985",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.06377329898233795,
+    "MAD_dex_excluding_this_group": 0.3881116097514568
+  },
+  {
+    "composition": "Li56.0La24.0Zr16.0O96.0",
+    "space_group": "230",
+    "n": 4,
+    "IDs": [
+      "3qz",
+      "etz",
+      "9p1",
+      "2mn"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/anie.200701144",
+      "10.1016/j.ssi.2010.12.010",
+      "10.1039/c1cp22108f",
+      "10.1039/c2jm31413d"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 4,
+    "median_log10_conductivity": -3.6061989269088315,
+    "sum_absolute_deviations_dex": 3.089885694320566,
+    "MAD_dex": 0.7724714235801415,
+    "log10_range": 2.460646040233478,
+    "records": [
+      {
+        "ID": "3qz",
+        "DOI": "10.1039/c2jm31413d",
+        "Ionic conductivity (S cm-1)": "0.00012",
+        "raw_y": "0.00012",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.972",
+        "b": "12.972",
+        "c": "12.972",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "etz",
+        "DOI": "10.1039/c1cp22108f",
+        "Ionic conductivity (S cm-1)": "1.97e-06",
+        "raw_y": "1.97e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.9727",
+        "b": "12.9727",
+        "c": "12.9727",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "9p1",
+        "DOI": "10.1016/j.ssi.2010.12.010",
+        "Ionic conductivity (S cm-1)": "0.000569",
+        "raw_y": "0.000569",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.9682",
+        "b": "12.9682",
+        "c": "12.9682",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "2mn",
+        "DOI": "10.1002/anie.200701144",
+        "Ionic conductivity (S cm-1)": "0.000511",
+        "raw_y": "0.000511",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.968",
+        "b": "12.968",
+        "c": "12.968",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.062113436303540714,
+    "MAD_dex_excluding_this_group": 0.3953895292394478
+  },
+  {
+    "composition": "Li16.0Sn4.0Se16.0",
+    "space_group": "62",
+    "n": 2,
+    "IDs": [
+      "2uv",
+      "mn3"
+    ],
+    "splits": [
+      "test"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/acs.chemmater.0c04150",
+      "10.1021/cm400541n"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -6.022878745280337,
+    "sum_absolute_deviations_dex": 2.6478174818886373,
+    "MAD_dex": 1.3239087409443187,
+    "log10_range": 2.6478174818886373,
+    "records": [
+      {
+        "ID": "2uv",
+        "DOI": "10.1021/cm400541n",
+        "Ionic conductivity (S cm-1)": "2e-05",
+        "raw_y": "2e-05",
+        "split": "test",
+        "censored": false,
+        "CIF": "Match",
+        "a": "14.931",
+        "b": "8.2217",
+        "c": "6.5989",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "mn3",
+        "DOI": "10.1021/acs.chemmater.0c04150",
+        "Ionic conductivity (S cm-1)": "4.5e-08",
+        "raw_y": "4.5e-08",
+        "split": "test",
+        "censored": false,
+        "CIF": "Match",
+        "a": "14.9826",
+        "b": "8.25908",
+        "c": "6.6279",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.05322690182584751,
+    "MAD_dex_excluding_this_group": 0.39248360552238976
+  },
+  {
+    "composition": "Li7.8Al1.8Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 5,
+    "IDs": [
+      "9s4",
+      "lap",
+      "mg4",
+      "ym6",
+      "kab"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/S0955-2219(99)00055-2",
+      "10.1016/j.ssi.2012.03.045",
+      "10.1016/j.ssi.2014.07.018",
+      "10.1016/j.ssi.2014.07.018|10.1016/j.ssi.2016.07.010",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 5,
+    "median_log10_conductivity": -2.9469215565165805,
+    "sum_absolute_deviations_dex": 2.442608594517346,
+    "MAD_dex": 0.4885217189034692,
+    "log10_range": 2.218360421770535,
+    "records": [
+      {
+        "ID": "9s4",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000722",
+        "raw_y": "0.000722",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.5004",
+        "b": "8.5004",
+        "c": "20.8156",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "lap",
+        "DOI": "10.1016/j.ssi.2012.03.045",
+        "Ionic conductivity (S cm-1)": "0.00113",
+        "raw_y": "0.00113",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.5012",
+        "b": "8.5012",
+        "c": "20.8416",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "mg4",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.0062",
+        "raw_y": "0.0062",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.4941",
+        "b": "8.4941",
+        "c": "20.8586",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ym6",
+        "DOI": "10.1016/j.ssi.2014.07.018|10.1016/j.ssi.2016.07.010",
+        "Ionic conductivity (S cm-1)": "0.00121",
+        "raw_y": "0.00121",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.5033",
+        "b": "8.5033",
+        "c": "20.8312",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "kab",
+        "DOI": "10.1016/S0955-2219(99)00055-2",
+        "Ionic conductivity (S cm-1)": "3.75e-05",
+        "raw_y": "3.75e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.498",
+        "b": "8.498",
+        "c": "20.896",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.04910175597398456,
+    "MAD_dex_excluding_this_group": 0.4043012098295561
+  },
+  {
+    "composition": "Li24.0P4.0S20.0I4.0",
+    "space_group": "216",
+    "n": 3,
+    "IDs": [
+      "ywe",
+      "p9u",
+      "5wz"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/pssa.201001117",
+      "10.1021/jacs.7b06327",
+      "10.1021/jacs.8b10282"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -5.886056647693163,
+    "sum_absolute_deviations_dex": 2.2420521357046437,
+    "MAD_dex": 0.7473507119015479,
+    "log10_range": 2.2420521357046437,
+    "records": [
+      {
+        "ID": "ywe",
+        "DOI": "10.1021/jacs.7b06327",
+        "Ionic conductivity (S cm-1)": "1.3e-06",
+        "raw_y": "1.3e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "10.181",
+        "b": "10.181",
+        "c": "10.181",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "p9u",
+        "DOI": "10.1002/pssa.201001117",
+        "Ionic conductivity (S cm-1)": "0.00022",
+        "raw_y": "0.00022",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "10.142",
+        "b": "10.142",
+        "c": "10.142",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "5wz",
+        "DOI": "10.1021/jacs.8b10282",
+        "Ionic conductivity (S cm-1)": "1.26e-06",
+        "raw_y": "1.26e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "10.1452",
+        "b": "10.1452",
+        "c": "10.1452",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.045070134075276845,
+    "MAD_dex_excluding_this_group": 0.39919157990647697
+  },
+  {
+    "composition": "Li24.0P4.0S20.0Br4.0",
+    "space_group": "216",
+    "n": 4,
+    "IDs": [
+      "6jf",
+      "9zr",
+      "nig",
+      "w87"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/pssa.201001117",
+      "10.1021/acs.inorgchem.8b02443",
+      "10.1021/jacs.7b06327",
+      "10.1039/c7ta08581h"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 4,
+    "median_log10_conductivity": -3.0467920708398646,
+    "sum_absolute_deviations_dex": 2.1523096131314956,
+    "MAD_dex": 0.5380774032828739,
+    "log10_range": 1.9373297907445424,
+    "records": [
+      {
+        "ID": "6jf",
+        "DOI": "10.1021/jacs.7b06327",
+        "Ionic conductivity (S cm-1)": "0.00115",
+        "raw_y": "0.00115",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "10.02",
+        "b": "10.02",
+        "c": "10.02",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "9zr",
+        "DOI": "10.1039/c7ta08581h",
+        "Ionic conductivity (S cm-1)": "0.000701",
+        "raw_y": "0.000701",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "9.9773",
+        "b": "9.9773",
+        "c": "9.9773",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "nig",
+        "DOI": "10.1021/acs.inorgchem.8b02443",
+        "Ionic conductivity (S cm-1)": "0.00277",
+        "raw_y": "0.00277",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "9.988",
+        "b": "9.988",
+        "c": "9.988",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "w87",
+        "DOI": "10.1002/pssa.201001117",
+        "Ionic conductivity (S cm-1)": "3.2e-05",
+        "raw_y": "3.2e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "9.98",
+        "b": "9.98",
+        "c": "9.98",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.04326611379394019,
+    "MAD_dex_excluding_this_group": 0.4033350892495247
+  },
+  {
+    "composition": "Li6.0Ge12.0P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "4ba",
+      "ldx"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/chin.199345017",
+      "10.1021/acsami.8b00842"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -7.396804317871084,
+    "sum_absolute_deviations_dex": 1.8384971027548076,
+    "MAD_dex": 0.9192485513774038,
+    "log10_range": 1.8384971027548076,
+    "records": [
+      {
+        "ID": "4ba",
+        "DOI": "10.1002/chin.199345017",
+        "Ionic conductivity (S cm-1)": "3.33e-07",
+        "raw_y": "3.33e-07",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.287",
+        "b": "8.287",
+        "c": "20.475",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ldx",
+        "DOI": "10.1021/acsami.8b00842",
+        "Ionic conductivity (S cm-1)": "4.83e-09",
+        "raw_y": "4.83e-09",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.27059",
+        "b": "8.27059",
+        "c": "20.4652",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.03695779843769116,
+    "MAD_dex_excluding_this_group": 0.39922794201517164
+  },
+  {
+    "composition": "Li24.0P4.0S20.0Cl4.0",
+    "space_group": "216",
+    "n": 3,
+    "IDs": [
+      "122",
+      "tt3",
+      "97p"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/pssa.201001117",
+      "10.1016/j.ssi.2012.06.008",
+      "10.1021/jacs.7b06327"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -2.886056647693163,
+    "sum_absolute_deviations_dex": 1.7932399211778671,
+    "MAD_dex": 0.5977466403926224,
+    "log10_range": 1.7932399211778671,
+    "records": [
+      {
+        "ID": "122",
+        "DOI": "10.1021/jacs.7b06327",
+        "Ionic conductivity (S cm-1)": "0.00205",
+        "raw_y": "0.00205",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "9.898",
+        "b": "9.898",
+        "c": "9.898",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "tt3",
+        "DOI": "10.1016/j.ssi.2012.06.008",
+        "Ionic conductivity (S cm-1)": "0.0013",
+        "raw_y": "0.0013",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "9.8397",
+        "b": "9.8397",
+        "c": "9.8397",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "97p",
+        "DOI": "10.1002/pssa.201001117",
+        "Ionic conductivity (S cm-1)": "3.3e-05",
+        "raw_y": "3.3e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "9.85",
+        "b": "9.85",
+        "c": "9.85",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.03604803045814291,
+    "MAD_dex_excluding_this_group": 0.40296311112098776
+  },
+  {
+    "composition": "Li40.0La24.0Ta16.0O96.0",
+    "space_group": "230",
+    "n": 4,
+    "IDs": [
+      "ka6",
+      "hcm",
+      "gz8",
+      "8k7"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1007/s11581-007-0097-8",
+      "10.1016/j.ssi.2009.11.015",
+      "10.1021/acs.inorgchem.7b00816",
+      "10.1149/2.024205esl"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 4,
+    "median_log10_conductivity": -4.989200708096954,
+    "sum_absolute_deviations_dex": 1.7251538610406039,
+    "MAD_dex": 0.43128846526015097,
+    "log10_range": 1.3439581962057927,
+    "records": [
+      {
+        "ID": "ka6",
+        "DOI": "10.1007/s11581-007-0097-8",
+        "Ionic conductivity (S cm-1)": "6.61e-06",
+        "raw_y": "6.61e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.7814",
+        "b": "12.7814",
+        "c": "12.7814",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "hcm",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "3.4e-05",
+        "raw_y": "3.4e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.8311",
+        "b": "12.8311",
+        "c": "12.8311",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "gz8",
+        "DOI": "10.1021/acs.inorgchem.7b00816",
+        "Ionic conductivity (S cm-1)": "1.59e-05",
+        "raw_y": "1.59e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.8176",
+        "b": "12.8176",
+        "c": "12.8176",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "8k7",
+        "DOI": "10.1016/j.ssi.2009.11.015",
+        "Ionic conductivity (S cm-1)": "1.54e-06",
+        "raw_y": "1.54e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.85",
+        "b": "12.85",
+        "c": "12.85",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.03467935226811528,
+    "MAD_dex_excluding_this_group": 0.40695505325029496
+  },
+  {
+    "composition": "Li8.4Al2.4Ti9.6P18.0O72.0",
+    "space_group": "167",
+    "n": 5,
+    "IDs": [
+      "iqt",
+      "50s",
+      "rg6",
+      "w3n",
+      "oxc"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jeurceramsoc.2014.11.023",
+      "10.1016/j.materresbull.2007.08.007",
+      "10.1016/j.ssi.2014.07.018",
+      "10.1039/c5ta08545d",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 5,
+    "median_log10_conductivity": -2.4814860601221125,
+    "sum_absolute_deviations_dex": 1.6413753468646122,
+    "MAD_dex": 0.32827506937292245,
+    "log10_range": 1.161676669257139,
+    "records": [
+      {
+        "ID": "iqt",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000388",
+        "raw_y": "0.000388",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.4955",
+        "b": "8.4955",
+        "c": "20.7992",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "50s",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.0033",
+        "raw_y": "0.0033",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.4882",
+        "b": "8.4882",
+        "c": "20.8571",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "rg6",
+        "DOI": "10.1016/j.jeurceramsoc.2014.11.023",
+        "Ionic conductivity (S cm-1)": "0.00338",
+        "raw_y": "0.00338",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.4975",
+        "b": "8.4975",
+        "c": "20.7921",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "w3n",
+        "DOI": "10.1016/j.materresbull.2007.08.007",
+        "Ionic conductivity (S cm-1)": "0.00112",
+        "raw_y": "0.00112",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.503",
+        "b": "8.503",
+        "c": "20.847",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "oxc",
+        "DOI": "10.1039/c5ta08545d",
+        "Ionic conductivity (S cm-1)": "0.00563",
+        "raw_y": "0.00563",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5",
+        "b": "8.5",
+        "c": "20.81",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.032995221553040396,
+    "MAD_dex_excluding_this_group": 0.41114935724539137
+  },
+  {
+    "composition": "Li20.0Ge2.0P4.0S24.0",
+    "space_group": "137",
+    "n": 5,
+    "IDs": [
+      "j8q",
+      "mtn",
+      "1hh",
+      "nkr",
+      "zzr"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2017.01.014",
+      "10.1021/acs.chemmater.8b00266",
+      "10.1021/jacs.0c10735",
+      "10.1038/nmat3066",
+      "10.1039/c4ta05231e|10.1021/acs.chemmater.7b00886"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 5,
+    "median_log10_conductivity": -1.9208187539523751,
+    "sum_absolute_deviations_dex": 1.437570847673976,
+    "MAD_dex": 0.2875141695347952,
+    "log10_range": 1.2355990696383172,
+    "records": [
+      {
+        "ID": "j8q",
+        "DOI": "10.1039/c4ta05231e|10.1021/acs.chemmater.7b00886",
+        "Ionic conductivity (S cm-1)": "0.0121",
+        "raw_y": "0.0121",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.719",
+        "b": "8.719",
+        "c": "12.639",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "mtn",
+        "DOI": "10.1021/acs.chemmater.8b00266",
+        "Ionic conductivity (S cm-1)": "0.0246",
+        "raw_y": "0.0246",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.71121",
+        "b": "8.71121",
+        "c": "12.6078",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "1hh",
+        "DOI": "10.1038/nmat3066",
+        "Ionic conductivity (S cm-1)": "0.012",
+        "raw_y": "0.012",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.69407",
+        "b": "8.69407",
+        "c": "12.5994",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "nkr",
+        "DOI": "10.1016/j.ssi.2017.01.014",
+        "Ionic conductivity (S cm-1)": "0.00143",
+        "raw_y": "0.00143",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.694",
+        "b": "8.694",
+        "c": "12.599",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "zzr",
+        "DOI": "10.1021/jacs.0c10735",
+        "Ionic conductivity (S cm-1)": "0.0076",
+        "raw_y": "0.0076",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.6877",
+        "b": "8.6877",
+        "c": "12.5827",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.028898306964218953,
+    "MAD_dex_excluding_this_group": 0.4128912760418926
+  },
+  {
+    "composition": "Li7.2Cr1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "f4x",
+      "pwy"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2014.07.018",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.053230078217669,
+    "sum_absolute_deviations_dex": 1.3733970675945115,
+    "MAD_dex": 0.6866985337972558,
+    "log10_range": 1.3733970675945115,
+    "records": [
+      {
+        "ID": "f4x",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "1.82e-05",
+        "raw_y": "1.82e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5189",
+        "b": "8.5189",
+        "c": "20.8643",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "pwy",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.00043",
+        "raw_y": "0.00043",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5132",
+        "b": "8.5132",
+        "c": "20.9271",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.02760827412946073,
+    "MAD_dex_excluding_this_group": 0.40310377564150746
+  },
+  {
+    "composition": "Li9.0Al3.0Ti9.0P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "xa0",
+      "nf0"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/cm010528i",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.282077817007779,
+    "sum_absolute_deviations_dex": 1.353058995667991,
+    "MAD_dex": 0.6765294978339955,
+    "log10_range": 1.353058995667991,
+    "records": [
+      {
+        "ID": "xa0",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000248",
+        "raw_y": "0.000248",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.4935",
+        "b": "8.4935",
+        "c": "20.7994",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "nf0",
+        "DOI": "10.1021/cm010528i",
+        "Ionic conductivity (S cm-1)": "1.1e-05",
+        "raw_y": "1.1e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.485",
+        "b": "8.485",
+        "c": "20.79",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.027199434560583883,
+    "MAD_dex_excluding_this_group": 0.40327325957422844
+  },
+  {
+    "composition": "Li6.6Al0.6Ti11.4P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "hyj",
+      "yq2"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2014.07.018",
+      "10.1016/s0955-2219(99)00055-2"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.8484019712897553,
+    "sum_absolute_deviations_dex": 1.3489535479811638,
+    "MAD_dex": 0.6744767739905819,
+    "log10_range": 1.3489535479811638,
+    "records": [
+      {
+        "ID": "hyj",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.00067",
+        "raw_y": "0.00067",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5068",
+        "b": "8.5068",
+        "c": "20.8905",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "yq2",
+        "DOI": "10.1016/s0955-2219(99)00055-2",
+        "Ionic conductivity (S cm-1)": "3e-05",
+        "raw_y": "3e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.508",
+        "b": "8.508",
+        "c": "20.855",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.027116906114997053,
+    "MAD_dex_excluding_this_group": 0.4033074716382854
+  },
+  {
+    "composition": "Li7.8In1.8Hf10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "ppz",
+      "9l3"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/0167-2738(86)90179-7",
+      "10.1016/0167-2738(93)90387-i"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.423855827808472,
+    "sum_absolute_deviations_dex": 1.1522883443830567,
+    "MAD_dex": 0.5761441721915284,
+    "log10_range": 1.1522883443830567,
+    "records": [
+      {
+        "ID": "ppz",
+        "DOI": "10.1016/0167-2738(86)90179-7",
+        "Ionic conductivity (S cm-1)": "1e-05",
+        "raw_y": "1e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.82",
+        "b": "8.82",
+        "c": "21.933",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "9l3",
+        "DOI": "10.1016/0167-2738(93)90387-i",
+        "Ionic conductivity (S cm-1)": "0.000142",
+        "raw_y": "0.000142",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.84",
+        "b": "8.84",
+        "c": "21.995",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.02316350692639051,
+    "MAD_dex_excluding_this_group": 0.4049463483349362
+  },
+  {
+    "composition": "Li7.8Fe1.8Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "t9r",
+      "b9u"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2014.07.018",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.123668528439514,
+    "sum_absolute_deviations_dex": 0.9707927289142138,
+    "MAD_dex": 0.4853963644571069,
+    "log10_range": 0.9707927289142138,
+    "records": [
+      {
+        "ID": "t9r",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000246",
+        "raw_y": "0.000246",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5262",
+        "b": "8.5262",
+        "c": "20.865",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "b9u",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.0023",
+        "raw_y": "0.0023",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5239",
+        "b": "8.5239",
+        "c": "20.9215",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.019515049518559188,
+    "MAD_dex_excluding_this_group": 0.40645881179717663
+  },
+  {
+    "composition": "Li7.8Cr1.8Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "txm",
+      "y9l"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2014.07.018",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.99614744281761,
+    "sum_absolute_deviations_dex": 0.9170908814331322,
+    "MAD_dex": 0.4585454407165661,
+    "log10_range": 0.9170908814331322,
+    "records": [
+      {
+        "ID": "txm",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "3.51e-05",
+        "raw_y": "3.51e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5203",
+        "b": "8.5203",
+        "c": "20.8702",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "y9l",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.00029",
+        "raw_y": "0.00029",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5183",
+        "b": "8.5183",
+        "c": "20.9177",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.01843552535071385,
+    "MAD_dex_excluding_this_group": 0.4069063271928523
+  },
+  {
+    "composition": "Li7.2Fe1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "6st",
+      "kbp"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2014.07.018",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.2992997296092277,
+    "sum_absolute_deviations_dex": 0.8908555305749322,
+    "MAD_dex": 0.4454277652874661,
+    "log10_range": 0.8908555305749322,
+    "records": [
+      {
+        "ID": "6st",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.00018",
+        "raw_y": "0.00018",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5213",
+        "b": "8.5213",
+        "c": "20.8648",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "kbp",
+        "DOI": "10.1016/j.ssi.2014.07.018",
+        "Ionic conductivity (S cm-1)": "0.0014",
+        "raw_y": "0.0014",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5213",
+        "b": "8.5213",
+        "c": "20.9211",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.01790813762325613,
+    "MAD_dex_excluding_this_group": 0.40712495511667063
+  },
+  {
+    "composition": "Li7.2La1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "p4l",
+      "fkt"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1149/1.2086597",
+      "10.1149/1.2096693"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.687138045237122,
+    "sum_absolute_deviations_dex": 0.8195439355418683,
+    "MAD_dex": 0.40977196777093416,
+    "log10_range": 0.8195439355418683,
+    "records": [
+      {
+        "ID": "p4l",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "8e-05",
+        "raw_y": "8e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5117",
+        "b": "8.5117",
+        "c": "20.8537",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "fkt",
+        "DOI": "10.1149/1.2096693",
+        "Ionic conductivity (S cm-1)": "0.000528",
+        "raw_y": "0.000528",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.511",
+        "b": "8.511",
+        "c": "20.853",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.01647461915235228,
+    "MAD_dex_excluding_this_group": 0.40771921840861286
+  },
+  {
+    "composition": "Li7.2Al1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "my9",
+      "z9y"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jeurceramsoc.2014.11.023",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -2.8482831669968975,
+    "sum_absolute_deviations_dex": 0.7543997345491049,
+    "MAD_dex": 0.37719986727455246,
+    "log10_range": 0.7543997345491049,
+    "records": [
+      {
+        "ID": "my9",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000595",
+        "raw_y": "0.000595",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.5042",
+        "b": "8.5042",
+        "c": "20.8252",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "z9y",
+        "DOI": "10.1016/j.jeurceramsoc.2014.11.023",
+        "Ionic conductivity (S cm-1)": "0.00338",
+        "raw_y": "0.00338",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.502",
+        "b": "8.502",
+        "c": "20.818",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.015165078742379665,
+    "MAD_dex_excluding_this_group": 0.4082620867502192
+  },
+  {
+    "composition": "Li7.2In1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "5u3",
+      "i8k"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/cm030422i",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.7470317877167254,
+    "sum_absolute_deviations_dex": 0.6761927894864486,
+    "MAD_dex": 0.3380963947432243,
+    "log10_range": 0.6761927894864486,
+    "records": [
+      {
+        "ID": "5u3",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.00039",
+        "raw_y": "0.00039",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.544",
+        "b": "8.544",
+        "c": "20.948",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "i8k",
+        "DOI": "10.1021/cm030422i",
+        "Ionic conductivity (S cm-1)": "8.22e-05",
+        "raw_y": "8.22e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.55",
+        "b": "8.55",
+        "c": "20.96",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.013592948708711229,
+    "MAD_dex_excluding_this_group": 0.40891381129240795
+  },
+  {
+    "composition": "La1.12Li0.66Ti2.0O6.0",
+    "space_group": "123",
+    "n": 2,
+    "IDs": [
+      "vwy",
+      "2ha"
+    ],
+    "splits": [
+      "test"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jallcom.2013.04.195",
+      "10.1016/s0167-2738(98)00070-8"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.4788697966552737,
+    "sum_absolute_deviations_dex": 0.6072925182616395,
+    "MAD_dex": 0.3036462591308198,
+    "log10_range": 0.6072925182616395,
+    "records": [
+      {
+        "ID": "vwy",
+        "DOI": "10.1016/s0167-2738(98)00070-8",
+        "Ionic conductivity (S cm-1)": "0.000668",
+        "raw_y": "0.000668",
+        "split": "test",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "3.8675",
+        "b": "3.8675",
+        "c": "7.758",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "2ha",
+        "DOI": "10.1016/j.jallcom.2013.04.195",
+        "Ionic conductivity (S cm-1)": "0.000165",
+        "raw_y": "0.000165",
+        "split": "test",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "3.89816",
+        "b": "3.89816",
+        "c": "7.8519",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.012207903101397946,
+    "MAD_dex_excluding_this_group": 0.4094879802192814
+  },
+  {
+    "composition": "Li7.8Al1.2Sc0.6Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "hzf",
+      "0fa"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1007/s10008-012-1780-x",
+      "10.1016/j.ssi.2012.03.045"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.2912907275356584,
+    "sum_absolute_deviations_dex": 0.5579139849238666,
+    "MAD_dex": 0.2789569924619333,
+    "log10_range": 0.5579139849238666,
+    "records": [
+      {
+        "ID": "hzf",
+        "DOI": "10.1016/j.ssi.2012.03.045",
+        "Ionic conductivity (S cm-1)": "0.000972",
+        "raw_y": "0.000972",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5169",
+        "b": "8.5169",
+        "c": "20.916",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "0fa",
+        "DOI": "10.1007/s10008-012-1780-x",
+        "Ionic conductivity (S cm-1)": "0.000269",
+        "raw_y": "0.000269",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5216",
+        "b": "8.5216",
+        "c": "20.917",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.0112152869697153,
+    "MAD_dex_excluding_this_group": 0.4098994679970962
+  },
+  {
+    "composition": "Li52.0La24.0Zr12.0Ta4.0O96.0",
+    "space_group": "230",
+    "n": 3,
+    "IDs": [
+      "g5q",
+      "kh3",
+      "dbs"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1039/c2jm31413d",
+      "10.1149/2.024205esl",
+      "10.3389/fenrg.2016.00028"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -3.1001794975729036,
+    "sum_absolute_deviations_dex": 0.5166297960033361,
+    "MAD_dex": 0.17220993200111204,
+    "log10_range": 0.5166297960033361,
+    "records": [
+      {
+        "ID": "g5q",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "0.00028",
+        "raw_y": "0.00028",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.9187",
+        "b": "12.9187",
+        "c": "12.9187",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "kh3",
+        "DOI": "10.1039/c2jm31413d",
+        "Ionic conductivity (S cm-1)": "0.00092",
+        "raw_y": "0.00092",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.945",
+        "b": "12.945",
+        "c": "12.945",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "dbs",
+        "DOI": "10.3389/fenrg.2016.00028",
+        "Ionic conductivity (S cm-1)": "0.000794",
+        "raw_y": "0.000794",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.954",
+        "b": "12.954",
+        "c": "12.954",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.010385384800980684,
+    "MAD_dex_excluding_this_group": 0.413690927298925
+  },
+  {
+    "composition": "Li7.2Sc1.2Ti10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "1wm",
+      "0x9"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/0167-2738(86)90179-7",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.3851079010796825,
+    "sum_absolute_deviations_dex": 0.4479139836338759,
+    "MAD_dex": 0.22395699181693796,
+    "log10_range": 0.4479139836338759,
+    "records": [
+      {
+        "ID": "1wm",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.00069",
+        "raw_y": "0.00069",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5482",
+        "b": "8.5482",
+        "c": "20.9418",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "0x9",
+        "DOI": "10.1016/0167-2738(86)90179-7",
+        "Ionic conductivity (S cm-1)": "0.000246",
+        "raw_y": "0.000246",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.536",
+        "b": "8.536",
+        "c": "20.922",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.009004047218654665,
+    "MAD_dex_excluding_this_group": 0.4108161346745128
+  },
+  {
+    "composition": "Li14.0P6.0S22.0",
+    "space_group": "2",
+    "n": 2,
+    "IDs": [
+      "mdp",
+      "ptg"
+    ],
+    "splits": [
+      "test"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/acs.chemmater.6b02163",
+      "10.1039/c3ee41655k|10.1016/j.ssi.2007.05.020|10.1016/j.ssi.2006.04.017"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -2.280175785218263,
+    "sum_absolute_deviations_dex": 0.4293484729236621,
+    "MAD_dex": 0.21467423646183104,
+    "log10_range": 0.4293484729236621,
+    "records": [
+      {
+        "ID": "mdp",
+        "DOI": "10.1039/c3ee41655k|10.1016/j.ssi.2007.05.020|10.1016/j.ssi.2006.04.017",
+        "Ionic conductivity (S cm-1)": "0.0032",
+        "raw_y": "0.0032",
+        "split": "test",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.5009",
+        "b": "6.0316",
+        "c": "12.5303",
+        "alpha": "102.845",
+        "beta": "113.202",
+        "gamma": "74.467"
+      },
+      {
+        "ID": "ptg",
+        "DOI": "10.1021/acs.chemmater.6b02163",
+        "Ionic conductivity (S cm-1)": "0.0086",
+        "raw_y": "0.0086",
+        "split": "test",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.4258",
+        "b": "6.0401",
+        "c": "12.515",
+        "alpha": "103.076",
+        "beta": "113.342",
+        "gamma": "74.883"
+      }
+    ],
+    "absolute_deviation_share": 0.008630839993202546,
+    "MAD_dex_excluding_this_group": 0.41097084726376454
+  },
+  {
+    "composition": "Li54.4La24.0Zr14.4Ta1.6O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "v1q",
+      "o5q"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1039/c2jm31413d",
+      "10.1149/2.024205esl"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.344759554268663,
+    "sum_absolute_deviations_dex": 0.4161648287782369,
+    "MAD_dex": 0.20808241438911845,
+    "log10_range": 0.4161648287782369,
+    "records": [
+      {
+        "ID": "v1q",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "0.00073",
+        "raw_y": "0.00073",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.978",
+        "b": "12.978",
+        "c": "12.978",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "o5q",
+        "DOI": "10.1039/c2jm31413d",
+        "Ionic conductivity (S cm-1)": "0.00028",
+        "raw_y": "0.00028",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.964",
+        "b": "12.964",
+        "c": "12.964",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.008365820014508649,
+    "MAD_dex_excluding_this_group": 0.41108071096497645
+  },
+  {
+    "composition": "Li48.0Ba8.0La16.0Ta16.0O96.0",
+    "space_group": "230",
+    "n": 4,
+    "IDs": [
+      "7o7",
+      "hud",
+      "ner",
+      "h89"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1007/s11581-007-0097-8",
+      "10.1016/j.materresbull.2012.04.032",
+      "10.1016/j.ssi.2008.10.022",
+      "10.1021/am4060194"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 4,
+    "median_log10_conductivity": -4.798011018165322,
+    "sum_absolute_deviations_dex": 0.407674109229319,
+    "MAD_dex": 0.10191852730732975,
+    "log10_range": 0.3558786636713265,
+    "records": [
+      {
+        "ID": "7o7",
+        "DOI": "10.1007/s11581-007-0097-8",
+        "Ionic conductivity (S cm-1)": "2.95e-05",
+        "raw_y": "2.95e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.9748",
+        "b": "12.9748",
+        "c": "12.9748",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "hud",
+        "DOI": "10.1016/j.ssi.2008.10.022",
+        "Ionic conductivity (S cm-1)": "1.3e-05",
+        "raw_y": "1.3e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "13.001",
+        "b": "13.001",
+        "c": "13.001",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "ner",
+        "DOI": "10.1016/j.materresbull.2012.04.032",
+        "Ionic conductivity (S cm-1)": "1.69e-05",
+        "raw_y": "1.69e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.995",
+        "b": "12.995",
+        "c": "12.995",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "h89",
+        "DOI": "10.1021/am4060194",
+        "Ionic conductivity (S cm-1)": "1.5e-05",
+        "raw_y": "1.5e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.9973",
+        "b": "12.9973",
+        "c": "12.9973",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.008195138047585952,
+    "MAD_dex_excluding_this_group": 0.4181201358927635
+  },
+  {
+    "composition": "Li6.0Hf12.0P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "a3l",
+      "ncr"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/chin.199345017",
+      "10.1016/0167-2738(93)90387-i"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -6.356261496491642,
+    "sum_absolute_deviations_dex": 0.38390413596813566,
+    "MAD_dex": 0.19195206798406783,
+    "log10_range": 0.38390413596813566,
+    "records": [
+      {
+        "ID": "a3l",
+        "DOI": "10.1002/chin.199345017",
+        "Ionic conductivity (S cm-1)": "2.83e-07",
+        "raw_y": "2.83e-07",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.824",
+        "b": "8.824",
+        "c": "22.04",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ncr",
+        "DOI": "10.1016/0167-2738(93)90387-i",
+        "Ionic conductivity (S cm-1)": "6.85e-07",
+        "raw_y": "6.85e-07",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.809",
+        "b": "8.809",
+        "c": "21.98",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.007717309782673378,
+    "MAD_dex_excluding_this_group": 0.41134955007172724
+  },
+  {
+    "composition": "Li40.0La24.0Sb16.0O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "xog",
+      "tbj"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.materresbull.2007.10.035",
+      "10.1016/j.ssi.2008.01.002"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -5.2927305819015995,
+    "sum_absolute_deviations_dex": 0.3696503691841606,
+    "MAD_dex": 0.1848251845920803,
+    "log10_range": 0.3696503691841606,
+    "records": [
+      {
+        "ID": "xog",
+        "DOI": "10.1016/j.materresbull.2007.10.035",
+        "Ionic conductivity (S cm-1)": "7.8e-06",
+        "raw_y": "7.8e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.8566",
+        "b": "12.8566",
+        "c": "12.8566",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "tbj",
+        "DOI": "10.1016/j.ssi.2008.01.002",
+        "Ionic conductivity (S cm-1)": "3.33e-06",
+        "raw_y": "3.33e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.8467",
+        "b": "12.8467",
+        "c": "12.8467",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0074307780068056505,
+    "MAD_dex_excluding_this_group": 0.4114683314615937
+  },
+  {
+    "composition": "Li52.8La24.0Zr12.8Ta3.2O96.0",
+    "space_group": "230",
+    "n": 3,
+    "IDs": [
+      "2wb",
+      "z53",
+      "zqx"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/am503731h",
+      "10.1039/c2jm31413d",
+      "10.1149/2.024205esl"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -3.3279021420642825,
+    "sum_absolute_deviations_dex": 0.36777852257400756,
+    "MAD_dex": 0.12259284085800252,
+    "log10_range": 0.36777852257400756,
+    "records": [
+      {
+        "ID": "2wb",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "0.00047",
+        "raw_y": "0.00047",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.947",
+        "b": "12.947",
+        "c": "12.947",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "z53",
+        "DOI": "10.1021/am503731h",
+        "Ionic conductivity (S cm-1)": "0.000313",
+        "raw_y": "0.000313",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.9594",
+        "b": "12.9594",
+        "c": "12.9594",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "zqx",
+        "DOI": "10.1039/c2jm31413d",
+        "Ionic conductivity (S cm-1)": "0.00073",
+        "raw_y": "0.00073",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.948",
+        "b": "12.948",
+        "c": "12.948",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.007393149810590027,
+    "MAD_dex_excluding_this_group": 0.4149417783361462
+  },
+  {
+    "composition": "Li48.0La24.0Zr8.0Ta8.0O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "6hq",
+      "0ew"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1039/c2jm31413d",
+      "10.1149/2.024205esl"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.6259059864968997,
+    "sum_absolute_deviations_dex": 0.33994806169435066,
+    "MAD_dex": 0.16997403084717533,
+    "log10_range": 0.33994806169435066,
+    "records": [
+      {
+        "ID": "6hq",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "0.00035",
+        "raw_y": "0.00035",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.89",
+        "b": "12.89",
+        "c": "12.89",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "0ew",
+        "DOI": "10.1039/c2jm31413d",
+        "Ionic conductivity (S cm-1)": "0.00016",
+        "raw_y": "0.00016",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.891",
+        "b": "12.891",
+        "c": "12.891",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.006833696895446879,
+    "MAD_dex_excluding_this_group": 0.41171585069067546
+  },
+  {
+    "composition": "Li7.8Al1.8Ge10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "3uq",
+      "ag1"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/s0955-2219(99)00055-2",
+      "10.1021/acsami.8b00842"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.246504090638192,
+    "sum_absolute_deviations_dex": 0.32486260467061623,
+    "MAD_dex": 0.16243130233530811,
+    "log10_range": 0.32486260467061623,
+    "records": [
+      {
+        "ID": "3uq",
+        "DOI": "10.1021/acsami.8b00842",
+        "Ionic conductivity (S cm-1)": "8.24e-05",
+        "raw_y": "8.24e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.26189",
+        "b": "8.26189",
+        "c": "20.5646",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ag1",
+        "DOI": "10.1016/s0955-2219(99)00055-2",
+        "Ionic conductivity (S cm-1)": "3.9e-05",
+        "raw_y": "3.9e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.274",
+        "b": "8.274",
+        "c": "20.53",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.006530446333241352,
+    "MAD_dex_excluding_this_group": 0.4118415628325399
+  },
+  {
+    "composition": "Li9.6Al3.6Ge8.4P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "1dm",
+      "0y6"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/s0955-2219(99)00055-2",
+      "10.1021/acsami.8b00842"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.7002768121373624,
+    "sum_absolute_deviations_dex": 0.30719030436879935,
+    "MAD_dex": 0.15359515218439967,
+    "log10_range": 0.30719030436879935,
+    "records": [
+      {
+        "ID": "1dm",
+        "DOI": "10.1021/acsami.8b00842",
+        "Ionic conductivity (S cm-1)": "0.000284",
+        "raw_y": "0.000284",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.2526",
+        "b": "8.2526",
+        "c": "20.6831",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "0y6",
+        "DOI": "10.1016/s0955-2219(99)00055-2",
+        "Ionic conductivity (S cm-1)": "0.00014",
+        "raw_y": "0.00014",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.265",
+        "b": "8.265",
+        "c": "20.64",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.0061751945835887435,
+    "MAD_dex_excluding_this_group": 0.4119888320017217
+  },
+  {
+    "composition": "Li20.0Sn2.0P4.0S24.0",
+    "space_group": "137",
+    "n": 3,
+    "IDs": [
+      "9lx",
+      "13q",
+      "kko"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1021/acs.chemmater.8b00266",
+      "10.1021/ja407393y",
+      "10.1021/jacs.0c10735"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -2.4001169279263124,
+    "sum_absolute_deviations_dex": 0.2653144433974468,
+    "MAD_dex": 0.08843814779914894,
+    "log10_range": 0.2653144433974468,
+    "records": [
+      {
+        "ID": "9lx",
+        "DOI": "10.1021/ja407393y",
+        "Ionic conductivity (S cm-1)": "0.007",
+        "raw_y": "0.007",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.7057",
+        "b": "8.7057",
+        "c": "12.7389",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "13q",
+        "DOI": "10.1021/acs.chemmater.8b00266",
+        "Ionic conductivity (S cm-1)": "0.00398",
+        "raw_y": "0.00398",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.73685",
+        "b": "8.73685",
+        "c": "12.7573",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "kko",
+        "DOI": "10.1021/jacs.0c10735",
+        "Ionic conductivity (S cm-1)": "0.0038",
+        "raw_y": "0.0038",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.7297",
+        "b": "8.7297",
+        "c": "12.7428",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0053333985171902494,
+    "MAD_dex_excluding_this_group": 0.4158028210183021
+  },
+  {
+    "composition": "Li9.0Al3.0Ge9.0P18.0O72.0",
+    "space_group": "167",
+    "n": 3,
+    "IDs": [
+      "1xf",
+      "vg0",
+      "u5t"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jeurceramsoc.2014.11.023",
+      "10.1016/s0955-2219(99)00055-2",
+      "10.1021/acsami.8b00842"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -3.552841968657781,
+    "sum_absolute_deviations_dex": 0.24758567643701523,
+    "MAD_dex": 0.0825285588123384,
+    "log10_range": 0.24758567643701523,
+    "records": [
+      {
+        "ID": "1xf",
+        "DOI": "10.1021/acsami.8b00842",
+        "Ionic conductivity (S cm-1)": "0.000336",
+        "raw_y": "0.000336",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.25658",
+        "b": "8.25658",
+        "c": "20.6523",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "vg0",
+        "DOI": "10.1016/j.jeurceramsoc.2014.11.023",
+        "Ionic conductivity (S cm-1)": "0.00019",
+        "raw_y": "0.00019",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "8.2828",
+        "b": "8.2828",
+        "c": "20.5014",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "u5t",
+        "DOI": "10.1016/s0955-2219(99)00055-2",
+        "Ionic conductivity (S cm-1)": "0.00028",
+        "raw_y": "0.00028",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.25",
+        "b": "8.25",
+        "c": "20.56",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.004977011664640603,
+    "MAD_dex_excluding_this_group": 0.41595180225326384
+  },
+  {
+    "composition": "Li7.8Sc1.8Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 3,
+    "IDs": [
+      "do2",
+      "o8s",
+      "iwe"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/0167-2738(86)90179-7",
+      "10.1016/j.ssi.2012.03.045",
+      "10.1149/1.2086597"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 3,
+    "median_log10_conductivity": -3.344861565188618,
+    "sum_absolute_deviations_dex": 0.23736091579460394,
+    "MAD_dex": 0.07912030526486798,
+    "log10_range": 0.23736091579460394,
+    "records": [
+      {
+        "ID": "do2",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000703",
+        "raw_y": "0.000703",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5645",
+        "b": "8.5645",
+        "c": "20.985",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "o8s",
+        "DOI": "10.1016/j.ssi.2012.03.045",
+        "Ionic conductivity (S cm-1)": "0.000452",
+        "raw_y": "0.000452",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5529",
+        "b": "8.5529",
+        "c": "21.058",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "iwe",
+        "DOI": "10.1016/0167-2738(86)90179-7",
+        "Ionic conductivity (S cm-1)": "0.000407",
+        "raw_y": "0.000407",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.559",
+        "b": "8.559",
+        "c": "20.964",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.004771471692709371,
+    "MAD_dex_excluding_this_group": 0.4160377246116034
+  },
+  {
+    "composition": "Li48.0Sr8.0La16.0Ta16.0O96.0",
+    "space_group": "199",
+    "n": 2,
+    "IDs": [
+      "gyw",
+      "ps0"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1002/adfm.200400044",
+      "10.1111/j.1551-2916.2005.00060.x"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -5.265826334793921,
+    "sum_absolute_deviations_dex": 0.22184874961635614,
+    "MAD_dex": 0.11092437480817807,
+    "log10_range": 0.22184874961635614,
+    "records": [
+      {
+        "ID": "gyw",
+        "DOI": "10.1111/j.1551-2916.2005.00060.x",
+        "Ionic conductivity (S cm-1)": "4.2e-06",
+        "raw_y": "4.2e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.811",
+        "b": "12.811",
+        "c": "12.811",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "ps0",
+        "DOI": "10.1002/adfm.200400044",
+        "Ionic conductivity (S cm-1)": "7e-06",
+        "raw_y": "7e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.808",
+        "b": "12.808",
+        "c": "12.808",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.004459643346562606,
+    "MAD_dex_excluding_this_group": 0.41270001162465875
+  },
+  {
+    "composition": "Li7.2Al1.2Ge10.8P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "0fh",
+      "ed4"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jeurceramsoc.2014.11.023",
+      "10.1021/acsami.8b00842"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.208116183410695,
+    "sum_absolute_deviations_dex": 0.21587337167558385,
+    "MAD_dex": 0.10793668583779192,
+    "log10_range": 0.21587337167558385,
+    "records": [
+      {
+        "ID": "0fh",
+        "DOI": "10.1021/acsami.8b00842",
+        "Ionic conductivity (S cm-1)": "4.83e-05",
+        "raw_y": "4.83e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.2619",
+        "b": "8.2619",
+        "c": "20.5656",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ed4",
+        "DOI": "10.1016/j.jeurceramsoc.2014.11.023",
+        "Ionic conductivity (S cm-1)": "7.94e-05",
+        "raw_y": "7.94e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.283",
+        "b": "8.283",
+        "c": "20.471",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 0.004339525227696285,
+    "MAD_dex_excluding_this_group": 0.41274980644083187
+  },
+  {
+    "composition": "Li54.0La24.0Zr14.0Ta2.0O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "4vd",
+      "7w5"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.jpowsour.2012.01.131",
+      "10.1149/2.024205esl"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.1305700989639,
+    "sum_absolute_deviations_dex": 0.140178703165037,
+    "MAD_dex": 0.0700893515825185,
+    "log10_range": 0.140178703165037,
+    "records": [
+      {
+        "ID": "4vd",
+        "DOI": "10.1149/2.024205esl",
+        "Ionic conductivity (S cm-1)": "0.00063",
+        "raw_y": "0.00063",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "12.9801",
+        "b": "12.9801",
+        "c": "12.9801",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "7w5",
+        "DOI": "10.1016/j.jpowsour.2012.01.131",
+        "Ionic conductivity (S cm-1)": "0.00087",
+        "raw_y": "0.00087",
+        "split": "train",
+        "censored": false,
+        "CIF": "Close Match",
+        "a": "12.96",
+        "b": "12.96",
+        "c": "12.96",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.002817897427778163,
+    "MAD_dex_excluding_this_group": 0.4133805953450864
+  },
+  {
+    "composition": "Li40.0La24.0Bi16.0O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "kbq",
+      "b7v"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.mseb.2007.07.009",
+      "10.1016/j.ssi.2017.03.030"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -4.689411859112482,
+    "sum_absolute_deviations_dex": 0.06366907986937775,
+    "MAD_dex": 0.03183453993468888,
+    "log10_range": 0.06366907986937775,
+    "records": [
+      {
+        "ID": "kbq",
+        "DOI": "10.1016/j.mseb.2007.07.009",
+        "Ionic conductivity (S cm-1)": "1.9e-05",
+        "raw_y": "1.9e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "13.0652",
+        "b": "13.0652",
+        "c": "13.0652",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "b7v",
+        "DOI": "10.1016/j.ssi.2017.03.030",
+        "Ionic conductivity (S cm-1)": "2.2e-05",
+        "raw_y": "2.2e-05",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "13.052",
+        "b": "13.052",
+        "c": "13.052",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0012798872606325459,
+    "MAD_dex_excluding_this_group": 0.4140181755392169
+  },
+  {
+    "composition": "Li19.62Sn1.62P4.38S24.0",
+    "space_group": "137",
+    "n": 2,
+    "IDs": [
+      "ns3",
+      "nip"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1039/c4fd00143e",
+      "10.1107/s2052520615022283"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -2.2820778170077793,
+    "sum_absolute_deviations_dex": 0.04488101300404601,
+    "MAD_dex": 0.022440506502023005,
+    "log10_range": 0.04488101300404601,
+    "records": [
+      {
+        "ID": "ns3",
+        "DOI": "10.1039/c4fd00143e",
+        "Ionic conductivity (S cm-1)": "0.00496",
+        "raw_y": "0.00496",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.7405",
+        "b": "8.7405",
+        "c": "12.715",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "nip",
+        "DOI": "10.1107/s2052520615022283",
+        "Ionic conductivity (S cm-1)": "0.0055",
+        "raw_y": "0.0055",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.73764",
+        "b": "8.73764",
+        "c": "12.7166",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0009022061714416215,
+    "MAD_dex_excluding_this_group": 0.4141747427630947
+  },
+  {
+    "composition": "Li20.7Si2.7P3.3S24.0",
+    "space_group": "137",
+    "n": 2,
+    "IDs": [
+      "mqo",
+      "k4x"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1039/c4fd00143e",
+      "10.1107/s2052520615022283"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -2.1795357895665837,
+    "sum_absolute_deviations_dex": 0.015101707581121282,
+    "MAD_dex": 0.007550853790560641,
+    "log10_range": 0.015101707581121282,
+    "records": [
+      {
+        "ID": "mqo",
+        "DOI": "10.1039/c4fd00143e",
+        "Ionic conductivity (S cm-1)": "0.00673",
+        "raw_y": "0.00673",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.66958",
+        "b": "8.66958",
+        "c": "12.5361",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "k4x",
+        "DOI": "10.1107/s2052520615022283",
+        "Ionic conductivity (S cm-1)": "0.0065",
+        "raw_y": "0.0065",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "8.68385",
+        "b": "8.68385",
+        "c": "12.5559",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0003035772338241578,
+    "MAD_dex_excluding_this_group": 0.41442290364161904
+  },
+  {
+    "composition": "Li7.8La1.8Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "qkr",
+      "ctg"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1149/1.2086597",
+      "10.1149/1.2096693"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.279432194299457,
+    "sum_absolute_deviations_dex": 0.004132233666537921,
+    "MAD_dex": 0.0020661168332689606,
+    "log10_range": 0.004132233666537921,
+    "records": [
+      {
+        "ID": "qkr",
+        "DOI": "10.1149/1.2086597",
+        "Ionic conductivity (S cm-1)": "0.000523",
+        "raw_y": "0.000523",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5119",
+        "b": "8.5119",
+        "c": "20.8513",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "ctg",
+        "DOI": "10.1149/1.2096693",
+        "Ionic conductivity (S cm-1)": "0.000528",
+        "raw_y": "0.000528",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.512",
+        "b": "8.512",
+        "c": "20.854",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 8.30669021542197e-05,
+    "MAD_dex_excluding_this_group": 0.41451431592424054
+  },
+  {
+    "composition": "Li7.8Al0.6Sc1.2Ti10.2P18.0O72.0",
+    "space_group": "167",
+    "n": 2,
+    "IDs": [
+      "czo",
+      "dq4"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1007/s10008-012-1780-x",
+      "10.1016/j.ssi.2012.03.045"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -3.3690665543562783,
+    "sum_absolute_deviations_dex": 0.003047693082005587,
+    "MAD_dex": 0.0015238465410027935,
+    "log10_range": 0.003047693082005587,
+    "records": [
+      {
+        "ID": "czo",
+        "DOI": "10.1016/j.ssi.2012.03.045",
+        "Ionic conductivity (S cm-1)": "0.000429",
+        "raw_y": "0.000429",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5322",
+        "b": "8.5322",
+        "c": "21.0039",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      },
+      {
+        "ID": "dq4",
+        "DOI": "10.1007/s10008-012-1780-x",
+        "Ionic conductivity (S cm-1)": "0.000426",
+        "raw_y": "0.000426",
+        "split": "train",
+        "censored": false,
+        "CIF": "No Match",
+        "a": "8.5244",
+        "b": "8.5244",
+        "c": "20.925",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "120"
+      }
+    ],
+    "absolute_deviation_share": 6.1265272844833e-05,
+    "MAD_dex_excluding_this_group": 0.41452335376244503
+  },
+  {
+    "composition": "Li48.0Ca8.0La16.0Ta16.0O96.0",
+    "space_group": "230",
+    "n": 2,
+    "IDs": [
+      "jej",
+      "l9r"
+    ],
+    "splits": [
+      "train"
+    ],
+    "unique_DOI_strings": [
+      "10.1016/j.ssi.2008.10.022",
+      "10.1021/am4060194"
+    ],
+    "censored_IDs": [],
+    "distinct_recorded_full_inputs": 2,
+    "median_log10_conductivity": -5.657577319177793,
+    "sum_absolute_deviations_dex": 0.0,
+    "MAD_dex": 0.0,
+    "log10_range": 0.0,
+    "records": [
+      {
+        "ID": "jej",
+        "DOI": "10.1016/j.ssi.2008.10.022",
+        "Ionic conductivity (S cm-1)": "2.2e-06",
+        "raw_y": "2.2e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.725",
+        "b": "12.725",
+        "c": "12.725",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      },
+      {
+        "ID": "l9r",
+        "DOI": "10.1021/am4060194",
+        "Ionic conductivity (S cm-1)": "2.2e-06",
+        "raw_y": "2.2e-06",
+        "split": "train",
+        "censored": false,
+        "CIF": "Match",
+        "a": "12.7088",
+        "b": "12.7088",
+        "c": "12.7088",
+        "alpha": "90",
+        "beta": "90",
+        "gamma": "90"
+      }
+    ],
+    "absolute_deviation_share": 0.0,
+    "MAD_dex_excluding_this_group": 0.41454875120479506
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "description": "Public numerical reproduction package, not a full project archive",
+  "original_reference_PDFs_included": false,
+  "files": [
+    {
+      "path": "scripts/audit_obelix_error_bound.py",
+      "sha256": "0004098800669c36dc2123c8c534b9b4b2a2233a9a783d3aba95ac1c64b71158",
+      "bytes": 9828
+    },
+    {
+      "path": "scripts/verify_obelix_error_bound.py",
+      "sha256": "ad96ead91d061311dd6fb15f0337434c05cf45af534121751c43de0dde584afd",
+      "bytes": 8467
+    },
+    {
+      "path": "evidence/round3/upstream_all.csv",
+      "sha256": "54f6265ef84d16a919d08c6815f14b0fd7465fa00090bee2511c16c042e57f3c",
+      "bytes": 114856
+    },
+    {
+      "path": "evidence/round3/upstream_processed.csv",
+      "sha256": "2a57b4b4287bd56e774402c8aec313f44c33df74d26a32e4bc3196e40b051474",
+      "bytes": 62547
+    },
+    {
+      "path": "evidence/round3/upstream_preprocessing.py.txt",
+      "sha256": "cb26d9479002d89d16e7a6ea91ee2624dd95001ce97f038a58064d06e0772dcb",
+      "bytes": 14879
+    },
+    {
+      "path": "evidence/round5/original_facts.json",
+      "sha256": "0eaa49bf84273642464a60283982ebe236f8ff4f02b39f7147e4cb79ba844d62",
+      "bytes": 13305
+    },
+    {
+      "path": "evidence/round11/upstream_analysis.py.txt",
+      "sha256": "aff4bd33cf94eac21331f06e8c7ba252f7e0f4c2db1b61f021bf6507ed582dd7",
+      "bytes": 16310
+    },
+    {
+      "path": "evidence/round11/upstream_RF.py.txt",
+      "sha256": "acb25a79d4d2393cd368012fc60b5960b2aa747e9634b890ea4cc9c7e484d87e",
+      "bytes": 3336
+    },
+    {
+      "path": "evidence/round11/upstream_MLP.py.txt",
+      "sha256": "390b2e961eda622e4528d2fe60a7f3b4938901f0652b25f789cd340e9651a610",
+      "bytes": 4512
+    },
+    {
+      "path": "evidence/round11/upstream_parse.py.txt",
+      "sha256": "e7fa4a6e4cc13112ab0a55f3afdca22c9e741d20c36453b6a5b349bb5ea5f52a",
+      "bytes": 1416
+    },
+    {
+      "path": "evidence/round11/upstream_train.csv",
+      "sha256": "01d87779862807e24bc45bb2c759852f892390b99f9340f13906c54805aa8776",
+      "bytes": 91889
+    },
+    {
+      "path": "evidence/round11/upstream_test.csv",
+      "sha256": "b2c266eb74e22f403743d52959bea7c43b1531a850994870a70dd909200e5297",
+      "bytes": 23220
+    },
+    {
+      "path": "evidence/round11/upstream_test_idx.csv",
+      "sha256": "0ad4cfaf5a61e85e228b2e0782a97b01469d08ac481b553622b91035a8ec719d",
+      "bytes": 486
+    },
+    {
+      "path": "evidence/round11/source_queue.json",
+      "sha256": "9797c6d6723c4d8ec5406cc558f9d30122eeca9cf3ced0ad00c0cad7aa4cf308",
+      "bytes": 1286
+    },
+    {
+      "path": "evidence/round11/benchmark_queue.json",
+      "sha256": "4dd4438294a6a712cf6c6cec5d71571075fe681129285606c3d9f0ef61dc278b",
+      "bytes": 1195
+    },
+    {
+      "path": "evidence/round11/method_queue.json",
+      "sha256": "0aa7d69a403788c95679c84c771966455ec331de1fe2813b1e2025587097a217",
+      "bytes": 935
+    },
+    {
+      "path": "sources/obelix_LICENSE.txt",
+      "sha256": "76f39f2a37c62c4ad0f56fdf5c299985e568a8f0b09b77bd147df5ba20e136b3",
+      "bytes": 17063
+    },
+    {
+      "path": "reports/round11/MANUSCRIPT.md",
+      "sha256": "dc3952aaa3b745c59bcb2a2b7339da0b192cc1dddf5aba3a857e66cecfb30f01",
+      "bytes": 18343
+    },
+    {
+      "path": "reports/round11/ANALYTICAL_NOTE.md",
+      "sha256": "491c905b3c8d47a2338ac02a41f02e67893e3c8934e57ab04acdd43dfec61dcf",
+      "bytes": 4577
+    },
+    {
+      "path": "reports/round11/SELF_REVIEW.md",
+      "sha256": "0d98ffc7c1ed9baf97d72e0751da882150ae3a147de5f9d307f8b797667cf2df",
+      "bytes": 3102
+    },
+    {
+      "path": "reports/round11/REPRODUCE.md",
+      "sha256": "de212d809334fbbab798db56586587f6d1b9aa2e5dda2beacd8613da571a2acc",
+      "bytes": 2321
+    },
+    {
+      "path": "reports/round11/repeated_groups.csv",
+      "sha256": "24e1f2ac84cac24da6f68616887b45d4c00a6cf1767c9e3d04c60eb539beaca2",
+      "bytes": 6316
+    },
+    {
+      "path": "reports/round11/repeated_group_audit.json",
+      "sha256": "5ce3aa0adbc41801035185edce31226d0a70c0a458b3140b6da7d3dd4d798dc3",
+      "bytes": 78583
+    },
+    {
+      "path": "output/pdf/obelix_error_floor_audit.pdf",
+      "sha256": "7f8bca73c39d1dfddbdeb7f5b122f05f1d652d765a32b3a76fe6995742d8d221",
+      "bytes": 146064
+    },
+    {
+      "path": "README.md",
+      "sha256": "de212d809334fbbab798db56586587f6d1b9aa2e5dda2beacd8613da571a2acc",
+      "bytes": 2321
+    }
+  ]
+}
