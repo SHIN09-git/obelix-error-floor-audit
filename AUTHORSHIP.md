@@ -4,7 +4,7 @@
 **单位 / Affiliation:** Independent Researcher, Chongqing, China  
 **联系邮箱 / Email:** jinhanzhe09@gmail.com
 
-本公开准备版沿用项目负责人在既有公开研究中使用的英文署名。本仓库没有登记 ORCID，也没有虚构共同作者、机构资助或同行评审状态。
+本公开版沿用项目负责人在既有公开研究中使用的英文署名。本仓库没有登记 ORCID，也没有虚构共同作者、机构资助或同行评审状态。
 
 ## AI 使用及核查状态
 

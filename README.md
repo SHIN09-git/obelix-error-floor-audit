@@ -3,7 +3,9 @@
 [English](README.en.md) · [英文论文 PDF](output/pdf/obelix_error_floor_audit.pdf) · [论文源文](reports/round11/MANUSCRIPT.md) · [中文证明](reports/round11/ANALYTICAL_NOTE.md)
 
 **JIN HANZHE** · Independent Researcher, Chongqing, China  
-公开准备版 **1.0.0** · 整理日期：2026-10-22 · 科学分析截止：2026-10-11
+公开版 **1.0.0** · 发布日期：2026-10-22 · 科学分析截止：2026-10-11
+
+[GitHub 仓库](https://github.com/SHIN09-git/obelix-error-floor-audit) · [v1.0.0 发布与下载](https://github.com/SHIN09-git/obelix-error-floor-audit/releases/tag/v1.0.0) · [自动复现检查](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/reproduce.yml)
 
 这项研究复现了 OBELiX 论文中的组内离散统计量，并检查它能否支持“预测误差不可能低于 0.41”的解释。**原统计量的算术结果可以复现；把它直接解释为适用于所有模型的误差下限，仍缺少必要条件。**
 
@@ -74,7 +76,7 @@ python reproduce.py --output "../mard01-results"
 
 > JIN, HANZHE. 2026. *Repeated-composition dispersion does not identify a universal prediction-error floor: A reproducible audit of OBELiX, with a LATP source case*. Version 1.0.0. Research manuscript.
 
-机器可读引用见 [CITATION.cff](CITATION.cff)。本准备版尚无 DOI；引用中不要将本地包写成已发表期刊论文。
+机器可读引用见 [CITATION.cff](CITATION.cff)。本版本尚无 DOI；可引用上述固定版本发布页，但不要将本研究写成已发表期刊论文。
 
 原创代码采用 [MIT](LICENSE)；原创正文、文档和分析记录采用 [CC BY 4.0](LICENSE-CC-BY-4.0.txt)。OBELiX 快照保留上游 CC BY 4.0 许可和署名。适用范围见 [LICENSING.md](LICENSING.md)。本研究不代表 OBELiX 原作者的背书。
 

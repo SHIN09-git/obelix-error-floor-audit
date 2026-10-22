@@ -2,6 +2,8 @@
   "schema_version": 1,
   "release_version": "1.0.0",
   "prepared_date": "2026-10-22",
+  "release_date": "2026-10-22",
+  "repository_url": "https://github.com/SHIN09-git/obelix-error-floor-audit",
   "hash_algorithm": "SHA-256",
   "scope": "Distributed files only; excludes this manifest, Git metadata and generated output. Integrity inventory, not a digital signature.",
   "files": [
@@ -22,18 +24,18 @@
     },
     {
       "path": "AUTHORSHIP.md",
-      "bytes": 2183,
-      "sha256": "e475322198604642fcbb3baf5b80fe0099ab2f9197ec6bd0f346c019d6ddd353"
+      "bytes": 2177,
+      "sha256": "b82818004a7e36e1fb955efe42a0e28ff1accf59d8111cc9fc3301d349d3be5d"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1095,
-      "sha256": "b4523334c058d99e1d261e0f371ac914139776033126a5c0cc969a93d172a379"
+      "bytes": 1196,
+      "sha256": "879c188d8b40ec102d5eab289d794c335cea6b6a9654d17e10ecde496a884a3d"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1311,
-      "sha256": "e32af4006310414520ca2bfe4c8118742066d276498b31156ef10492a1ae183a"
+      "bytes": 1567,
+      "sha256": "7377af1105f293d7f98f7024dbc505341d252e267c17453ea5eed522f87d50b4"
     },
     {
       "path": "evidence/round11/benchmark_queue.json",
@@ -117,8 +119,8 @@
     },
     {
       "path": "LICENSING.md",
-      "bytes": 2298,
-      "sha256": "52d04612f16f874eeaca93ca58cdf363e4c3c0889f6fc2c91250562459ccef43"
+      "bytes": 2349,
+      "sha256": "bf04ad98faed778bdef3e3fdf0c50b292c8073561afab2021967eaf1c0e74ac5"
     },
     {
       "path": "output/pdf/obelix_error_floor_audit.pdf",
@@ -142,18 +144,18 @@
     },
     {
       "path": "provenance/validation_summary.json",
-      "bytes": 1864,
-      "sha256": "466bc1b478341734d8a3061e3f65df01972287748b2effaef0f4e925e32d3102"
+      "bytes": 2018,
+      "sha256": "b39dfa5e7276e6f5cbb581a6bf9d864838c102ba5e8fc55c3f31e6be79a0baa8"
     },
     {
       "path": "README.en.md",
-      "bytes": 3311,
-      "sha256": "3d1db72655fc0a46c19b392b31a44e8dc6cbf1895cf73cf1b2966f9451cb732e"
+      "bytes": 3625,
+      "sha256": "62d3e59777b76edcf415ec73fed5b7557fa0079491ae21965c8f2f6c00a89867"
     },
     {
       "path": "README.md",
-      "bytes": 5344,
-      "sha256": "050d12afb74a7992a9962e0af0daf199489674b7648dfb6f0dd2dc1798d3b19a"
+      "bytes": 5657,
+      "sha256": "daead1984b159507786b286f67a6022b78bacf04c002ecee587c58a4e9574477"
     },
     {
       "path": "reference_results/error_bound_audit.json",
@@ -162,8 +164,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1369,
-      "sha256": "5267d9d5b393f451891ef4eb07febf8ca8049826c4207575bc1e5f3c2a488adf"
+      "bytes": 1377,
+      "sha256": "999e187e66dac519af25a8e89f90b71d705feb6c9d8d3b1c3e6fa568977e4c4a"
     },
     {
       "path": "reports/round11/ANALYTICAL_NOTE.md",
@@ -202,8 +204,8 @@
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 4647,
-      "sha256": "4da37b6fad308b4f61c02d1f7dfc271381a058dc084d601ad0cc97f98767ca8a"
+      "bytes": 4731,
+      "sha256": "63b0e291b12966f1b37304731ed9f07b2b148d7277dff29621d7d95729fb7ef0"
     },
     {
       "path": "requirements-pdf.txt",
@@ -237,8 +239,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 2039,
-      "sha256": "f1e4c46040798ba8296d7df19ad1598c1438c660f6cdd30871c2d7d5a8ef481e"
+      "bytes": 2308,
+      "sha256": "c99e73fe2f992f6229a20f1a5eee0269550605265f645efc2c3ce51f712764c3"
     }
   ]
 }

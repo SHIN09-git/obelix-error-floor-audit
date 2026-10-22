@@ -12,7 +12,7 @@
 
 完整文本：[MIT](LICENSE)、[CC BY 4.0](LICENSE-CC-BY-4.0.txt)。本项目只对其有权许可的原创贡献适用上述许可；第三方原始内容的权利不因本仓库署名而改变。原始论文 PDF、字体和第三方 Python 库均未随仓库再分发。
 
-引用文献与遵守许可是两件事。复用 OBELiX 数据时，应保留 OBELiX 的署名、来源链接和 CC BY 4.0 链接；复用本审计的正文或改编分析时，应署名 JIN HANZHE，说明改动，并链接本审计及其 CC BY 4.0 许可。仓库 URL 在正式发布后可用于引用；本准备版不虚构已发布地址或 DOI。
+引用文献与遵守许可是两件事。复用 OBELiX 数据时，应保留 OBELiX 的署名、来源链接和 CC BY 4.0 链接；复用本审计的正文或改编分析时，应署名 JIN HANZHE，说明改动，并链接本审计及其 CC BY 4.0 许可。本研究的固定版本入口为 [v1.0.0 发布页](https://github.com/SHIN09-git/obelix-error-floor-audit/releases/tag/v1.0.0)，尚无 DOI。
 
 ## English
 

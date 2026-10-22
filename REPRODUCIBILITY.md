@@ -64,7 +64,7 @@ python scripts/build_pdf.py
 
 ## GitHub 自动检查
 
-`.github/workflows/reproduce.yml` 配置了 Windows 与 Ubuntu 上的 Python 3.11、3.12、3.13 检查。每个环境运行同一个 `python reproduce.py` 入口。这里的自动检查配置不是已经在 GitHub 通过的证明；本次实际执行情况见 [VALIDATION.md](VALIDATION.md)。
+`.github/workflows/reproduce.yml` 配置了 Windows 与 Ubuntu 上的 Python 3.11、3.12、3.13 检查。每个环境运行同一个 `python reproduce.py` 入口。线上执行状态与对应提交见 [GitHub 自动复现记录](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/reproduce.yml)；本地发布前检查见 [VALIDATION.md](VALIDATION.md)。
 
 The core numerical reproduction is offline and standard-library only. PDF rebuilding is optional and has separate dependencies. A successful run checks integrity, arithmetic and reference agreement; it is not peer review, a new experiment or proof of attainable predictive performance.
 

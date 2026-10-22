@@ -1,6 +1,6 @@
-# 公开准备版检查记录
+# 本地发布前检查记录
 
-日期：2026-10-22。实际运行环境：**Windows，Python 3.12.14**。
+日期：2026-10-22。实际运行环境：**Windows，Python 3.12.14**。本页记录首次推送到 GitHub 前完成的本地检查；后续线上执行状态与对应提交见 [GitHub 自动复现记录](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/reproduce.yml)。
 
 | 检查 | 已观察结果 |
 |---|---|
@@ -14,7 +14,7 @@
 | 已存在的输出目录 | 入口拒绝覆盖；目录中的原文件保留 |
 | PDF | 最终 5 页已逐页渲染，由 Codex 检查排版；作者元数据为 JIN HANZHE |
 | 本地路径与常见密钥格式 | 对清单内文本做模式检查，未发现匹配项；这不等于完整安全审计 |
-| GitHub 自动检查 | 已配置 Windows / Ubuntu 与 Python 3.11 / 3.12 / 3.13；尚未在 GitHub 执行 |
+| GitHub 自动检查 | 已配置 Windows / Ubuntu 与 Python 3.11 / 3.12 / 3.13；本页快照截止于首次推送之前，线上结果见上方链接 |
 
 机器可读记录：[provenance/validation_summary.json](provenance/validation_summary.json)。上游逐文件比较见 [provenance/upstream_release_check.json](provenance/upstream_release_check.json)。
 

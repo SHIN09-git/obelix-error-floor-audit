@@ -1,6 +1,6 @@
 # v1.0.0 — OBELiX error-floor audit
 
-Initial public-release preparation of MARD-01, by **JIN HANZHE**.
+Initial public release of MARD-01, by **JIN HANZHE**, on 22 October 2026.
 
 The audit reproduces the reported mean within-group absolute deviation of 0.4077528700 dex across 122 entries in 48 repeated composition-and-space-group groups. It documents why that statistic alone does not establish a universal prediction-error floor. Label-dependent finite-set minima are reported as descriptive calculations, not predictive scores or estimates of experimental noise.
 

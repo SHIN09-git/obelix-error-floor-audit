@@ -3,6 +3,9 @@ message: "Please cite the manuscript below when using this audit; also cite OBEL
 type: software
 title: "OBELiX error-floor audit: reproducible analysis and manuscript"
 version: 1.0.0
+date-released: "2026-10-22"
+repository-code: "https://github.com/SHIN09-git/obelix-error-floor-audit"
+url: "https://github.com/SHIN09-git/obelix-error-floor-audit/releases/tag/v1.0.0"
 authors:
   - family-names: JIN
     given-names: HANZHE
@@ -31,5 +34,6 @@ preferred-citation:
       affiliation: "Independent Researcher, Chongqing, China"
   year: 2026
   version: 1.0.0
-  notes: "Research manuscript; not submitted to a journal or peer reviewed. Public-release preparation dated 2026-10-22; analysis dated 2026-10-11."
+  url: "https://github.com/SHIN09-git/obelix-error-floor-audit/releases/tag/v1.0.0"
+  notes: "Research manuscript; not submitted to a journal or peer reviewed. Public release dated 2026-10-22; analysis dated 2026-10-11."
 

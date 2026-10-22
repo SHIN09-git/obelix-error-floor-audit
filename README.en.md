@@ -3,7 +3,9 @@
 [中文说明](README.md) · [Manuscript PDF](output/pdf/obelix_error_floor_audit.pdf) · [Source](reports/round11/MANUSCRIPT.md)
 
 **JIN HANZHE** — Independent Researcher, Chongqing, China  
-Prepared version **1.0.0**, 22 October 2026; scientific analysis dated 11 October 2026.
+Release **1.0.0**, 22 October 2026; scientific analysis dated 11 October 2026.
+
+[GitHub repository](https://github.com/SHIN09-git/obelix-error-floor-audit) · [v1.0.0 release and downloads](https://github.com/SHIN09-git/obelix-error-floor-audit/releases/tag/v1.0.0) · [Reproduction workflow](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/reproduce.yml)
 
 This audit reproduces the dispersion statistic reported in OBELiX and examines the inference that it establishes a universal prediction-error floor. The arithmetic is reproducible: the mean absolute deviation from group medians is **0.4077528700 dex** for **122 entries in 48 repeated composition-and-space-group groups**.
 
@@ -34,5 +36,5 @@ Inputs are pinned to [NRC-Mila/OBELiX commit 4eaac889809dd489e3bae468c45d5c0e02b
 
 Original code: [MIT](LICENSE). Original prose and audit records: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Upstream snapshots retain their own CC BY 4.0 terms. See [file-level scope](LICENSING.md). The audit does not imply endorsement by the OBELiX authors.
 
-Author/contact: **JIN HANZHE**, [jinhanzhe09@gmail.com](mailto:jinhanzhe09@gmail.com). AI-assisted source checking, analysis and drafting are disclosed in [AUTHORSHIP.md](AUTHORSHIP.md); no completed human scientific verification is claimed. Cite the manuscript using [CITATION.cff](CITATION.cff). No DOI has been assigned to this prepared release.
+Author/contact: **JIN HANZHE**, [jinhanzhe09@gmail.com](mailto:jinhanzhe09@gmail.com). AI-assisted source checking, analysis and drafting are disclosed in [AUTHORSHIP.md](AUTHORSHIP.md); no completed human scientific verification is claimed. Cite the manuscript using [CITATION.cff](CITATION.cff) and the versioned release URL. No DOI has been assigned to this release.
 

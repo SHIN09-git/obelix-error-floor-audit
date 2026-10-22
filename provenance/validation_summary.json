@@ -1,5 +1,6 @@
 {
   "prepared_date": "2026-10-22",
+  "record_scope": "Local release-preparation snapshot before the first GitHub push. Later online CI status is recorded in the repository workflow runs.",
   "platform_tested": "Windows",
   "python_tested": "3.12.14",
   "portable_core_checks_passed": 41,
