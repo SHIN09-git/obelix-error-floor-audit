@@ -13,6 +13,14 @@ Under the restriction of a constant prediction within each such group, the finit
 
 The manuscript gives the relevant elementary proof, a population counterexample and a two-paper LATP source case. It does not train a model, change the dataset, establish leakage of the repeated groups across the official split, or invalidate the benchmark rankings. It has not been peer reviewed. See [authorship and AI disclosure](AUTHORSHIP.md).
 
+## Lean formalization supplement — 6 November 2026
+
+[Proofs and reproduction instructions](formal/lean/README.md) · [Recorded verification](formal/lean/verification/RESULT.json) · [Lean CI](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/lean.yml)
+
+Lean 4.24.0 verifies the analytical note's first three claims: group-median MAE optimality, monotonicity of optimal risk under richer inputs on the same scoring population, and an explicit population counterexample with coarse optimum `0.41` and rich optimum `0`. The proof includes measurability, a normalized probability law, lower bounds and attainment.
+
+There are no proof placeholders or added axioms. The 19-declaration transitive axiom audit and a fresh kernel replay including imported dependencies passed. Empirical values, source interpretation and section 4 are outside this formalization. This repository supplement leaves the manuscript's fixed v1.0.0 release intact.
+
 ## Reproduce offline
 
 Python **3.11+**, standard library only:

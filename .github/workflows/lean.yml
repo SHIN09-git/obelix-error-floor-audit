@@ -1,0 +1,58 @@
+name: Verify Lean proofs
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      LEAN_NUM_THREADS: 2
+    defaults:
+      run:
+        working-directory: formal/lean
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install pinned Lean toolchain
+        uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64 # v1, resolved 2026-11-06
+        with:
+          lake-package-directory: formal/lean
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+      - name: Fetch pinned dependency cache
+        run: >-
+          lake exe cache get
+          Mathlib.Data.Real.Archimedean
+          Mathlib.Algebra.Order.BigOperators.Group.Finset
+          Mathlib.Algebra.BigOperators.Group.Finset.Basic
+          Mathlib.Tactic.Linarith Mathlib.Tactic.NormNum Mathlib.Tactic.Ring
+          Mathlib.Data.List.Sort Mathlib.Data.List.Induction
+          Mathlib.Data.Fintype.BigOperators
+          Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+          Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+      - name: Build pinned official kernel checker
+        run: |
+          git clone --branch v4.24.0 https://github.com/leanprover/lean4checker.git .verification-tools/lean4checker
+          git -C .verification-tools/lean4checker checkout --detach da26eb05e9959402afcb9bd6dfe5dc4f700f70d6
+          test "$(git -C .verification-tools/lean4checker rev-parse HEAD)" = "da26eb05e9959402afcb9bd6dfe5dc4f700f70d6"
+          lake -d .verification-tools/lean4checker build lean4checker
+      - name: Compile, audit axioms and replay all imported proofs
+        shell: pwsh
+        run: ./verify.ps1 -CheckerExe ./.verification-tools/lean4checker/.lake/build/bin/lean4checker
+      - name: Print recorded axiom reports
+        if: always()
+        shell: pwsh
+        run: |
+          Get-ChildItem .verification-runs -Filter axioms.log -Recurse -ErrorAction SilentlyContinue |
+            ForEach-Object { Get-Content -LiteralPath $_.FullName }

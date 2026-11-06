@@ -1,0 +1,9 @@
+{
+  "source_path": "reports/round11/ANALYTICAL_NOTE.md",
+  "sha256": "491c905b3c8d47a2338ac02a41f02e67893e3c8934e57ab04acdd43dfec61dcf",
+  "date": "2026-11-06",
+  "scope": "Sections 1-3; section 4 excluded",
+  "original_modified": false,
+  "source_repository": "https://github.com/SHIN09-git/obelix-error-floor-audit",
+  "source_commit": "f2ac53048a708cd38a584c01aa28b04f99afca9f"
+}

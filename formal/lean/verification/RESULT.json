@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "date_local": "2026-11-06T12:57:27+08:00",
+  "scope": "MARD-01 ANALYTICAL_NOTE sections 1-3, with finite-sample and probability-law statements",
+  "core_statements": [
+    {
+      "proposition": 1,
+      "name": "Mard.grouped_median_optimal",
+      "status": "PROVED",
+      "domain": "arbitrary nonempty finite record set and real labels"
+    },
+    {
+      "proposition": 2,
+      "name": "Mard.feature_refinement",
+      "population_extension": "Mard.population_feature_refinement",
+      "status": "PROVED"
+    },
+    {
+      "proposition": 3,
+      "name": "Mard.Counterexample.population_counterexample",
+      "finite_version": "Mard.Counterexample.exact_counterexample",
+      "coarse_optimum": "41/100",
+      "rich_optimum": "0",
+      "relative_feature_difference": "3/250",
+      "status": "PROVED"
+    }
+  ],
+  "build": {
+    "exit_code": 0,
+    "warnings_as_errors": true,
+    "log": "verification/build-complete.log"
+  },
+  "axiom_audit": {
+    "exit_code": 0,
+    "declarations": 19,
+    "allowed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "unexpected": [],
+    "log": "verification/axioms.log"
+  },
+  "project_kernel_replay": {
+    "checker_exit_code": 0,
+    "mode": "from_imports",
+    "target_prefix": "Mard"
+  },
+  "fresh_kernel_replay": {
+    "checker_exit_code": 0,
+    "elapsed_seconds": 544.8063697,
+    "mode": "fresh",
+    "target": "ProofCheck",
+    "checker_commit": "da26eb05e9959402afcb9bd6dfe5dc4f700f70d6"
+  },
+  "source_audit": {
+    "forbidden_construct_matches": 0,
+    "original_reference_unchanged": true
+  },
+  "formalization_review": {
+    "performed_by": "AI assistant",
+    "external_human_review": false,
+    "checks": [
+      "record identity preserves duplicates",
+      "nonempty sample and whole-sample denominator",
+      "median constructed by sorting and central extraction",
+      "same records and loss under feature refinement",
+      "uniform two-point law has total probability one",
+      "counterexample lower bounds and attainment both proved",
+      "measurability and exact rational constants"
+    ]
+  },
+  "not_in_scope": [
+    "original empirical records and grouping semantics",
+    "empirical numeric audit values",
+    "section 4 sampling-bias and Gaussian example",
+    "learnability or material prediction performance",
+    "novelty or external peer review"
+  ],
+  "input_sha256": {
+    "Mard/Basic.lean": "945817b6413dc48111c29c4d0fd9fb79b5e55ce822059437b27b1c0efa52ba58",
+    "Mard/Counterexample.lean": "2d26ac4b0a3fc26e86429a18ff8a7180a7b8567e2bababc6c2dde687cbd4ef92",
+    "Mard/Median.lean": "cca7563cfbe5673fbf9829b694260b4fd5020918d4f0b405250b2a14758eb731",
+    "Mard/PopulationCounterexample.lean": "f6f056d94ba04b0a05dcc9765b88ca8a53301e102bda048d1f99b04429147871",
+    "Mard/Refinement.lean": "adafee6fd1c1d831415489ee72f32e4ba7b064a71e7e4ba9dd4af0c951c1fa26",
+    "Mard.lean": "7e4e2cbab5a7277e90208af182a3803bdb500a295ca782a6ca6fed5915aecd12",
+    "ProofCheck.lean": "8a91fbbecca0815acf98db5382b5e78bfdb7db00e348ecd2d2dca61fdd29d2e6",
+    "Audit.lean": "f8f569082f76739e75f6120f3129e65c777c2f23ef772de1e6a119147a54ff7b",
+    "lakefile.lean": "61afb65b5dfdae422b4c1d7447802b0f4e31acabce9d4e3f87024fd606362328",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "lake-manifest.json": "e5237c80c2bedcebdcaeeb6306664821e071fd78c7bf97e1c94d7ed81d9d6c07",
+    "reference/ANALYTICAL_NOTE.md": "491c905b3c8d47a2338ac02a41f02e67893e3c8934e57ab04acdd43dfec61dcf"
+  },
+  "publication_note": "Historical Windows verification on 2026-11-06. Proof, toolchain, manifest and analytical-note bytes match the verified originals. Public documentation, provenance and portable runner were packaged afterward. Current CI is recorded in GitHub Actions; this file is not a claim about every future commit."
+}

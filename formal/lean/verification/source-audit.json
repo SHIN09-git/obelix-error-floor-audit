@@ -1,0 +1,13 @@
+{
+  "checked_source_files": [
+    "Mard/Basic.lean",
+    "Mard/Counterexample.lean",
+    "Mard/Median.lean",
+    "Mard/PopulationCounterexample.lean",
+    "Mard/Refinement.lean",
+    "Mard.lean",
+    "ProofCheck.lean",
+    "Audit.lean"
+  ],
+  "forbidden_construct_matches": []
+}

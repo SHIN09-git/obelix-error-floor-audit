@@ -16,9 +16,15 @@
 
 本公开整理没有补造研究贡献分工、利益冲突声明或资助声明。若以后投稿或增加作者，应由相关作者据实补充并确认相应声明。
 
+## Lean 补充的核查范围 — 2026-11-06
+
+Lean 形式化、命题对应关系检查、验证执行与公开整理使用了 OpenAI Codex。Lean 编译、公理依赖检查及官方 lean4checker 的新环境内核重放均已执行。这里的机器验证仅针对所列数学命题，不代表原始文献人工复核、实测数据审核或同行评审完成。lean4checker 仍使用 Lean 内核，不是独立内核实现。
+
 ## English disclosure
 
 This research belongs to JIN HANZHE's research project. Source checking, analysis, drafting and release preparation were performed with OpenAI Codex. Codex is a tool and is not listed as an author. Completed human scientific verification, independent laboratory replication and peer review are not claimed.
 
 The LATP source records remain marked `ai_source_verified` and `human_verified: false`. The separate Decimal implementation is an independent computational route within the same AI-assisted workflow, not verification by an independent research group. No unverified contributor roles, funding statement or conflict-of-interest declaration have been invented.
 
+
+The 6 November 2026 Lean supplement was formalized, checked and packaged with OpenAI Codex. Compilation, a transitive axiom audit and fresh replay with the official lean4checker were executed. Machine checking covers the stated mathematical claims, not empirical data, source interpretation or peer review. The checker uses the Lean kernel, not an independent implementation.

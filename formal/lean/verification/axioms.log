@@ -1,0 +1,40 @@
+'Mard.sampleMedian_minimizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.grouped_median_minimizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.grouped_median_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.feature_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.add_feature_nonincreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.population_feature_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coarseRisk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coarse_optimalRisk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.rich_optimalRisk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.exact_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coarse_bound_not_universal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coinMeasure_isProbability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.feature_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.outcome_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coarse_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.predictor_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.coarse_populationRisk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.rich_populationRisk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Mard.Counterexample.population_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+@Mard.grouped_median_optimal : ∀ {I : Type u_1} {G : Type u_2} (s : Finset I),
+  s.Nonempty →
+    ∀ (y : I → ℝ) (group : I → G),
+      Mard.optimalRisk s y group =
+        (∑ g ∈ Finset.image group s,
+            Mard.absLoss (Mard.groupLabels s y group g) (Mard.sampleMedian (Mard.groupLabels s y group g))) /
+          ↑s.card
+@Mard.feature_refinement : ∀ {I : Type u_1} {X : Type u_2} {G : Type u_3} (s : Finset I) (y : I → ℝ) (rich : I → X)
+  (coarse : I → G) (forget : X → G),
+  (∀ i ∈ s, coarse i = forget (rich i)) → Mard.optimalRisk s y rich ≤ Mard.optimalRisk s y coarse
+@Mard.population_feature_refinement : ∀ {X : Type u_1} {G : Type u_2} {Ω : Type u_3} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace G] (μ : MeasureTheory.Measure Ω) (y : Ω → ℝ) (rich : Ω → X)
+  (forget : X → G), Measurable forget → Mard.populationRisk μ y rich ≤ Mard.populationRisk μ y (forget ∘ rich)
+Mard.Counterexample.population_counterexample :
+  Mard.populationRisk Mard.Counterexample.coinMeasure Mard.Counterexample.outcome Mard.Counterexample.coarse =
+      ENNReal.ofReal (41 / 100) ∧
+    Mard.populationRisk Mard.Counterexample.coinMeasure Mard.Counterexample.outcome Mard.Counterexample.feature = 0 ∧
+      Measurable Mard.Counterexample.predictor ∧
+        (∀ (u : Bool), Mard.Counterexample.predictor (Mard.Counterexample.feature u) = Mard.Counterexample.outcome u) ∧
+          (Mard.Counterexample.feature true - Mard.Counterexample.feature false) / Mard.Counterexample.feature false =
+            3 / 250

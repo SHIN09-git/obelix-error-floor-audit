@@ -12,3 +12,9 @@ scripts/audit_obelix_error_bound.py -text
 scripts/verify_obelix_error_bound.py -text
 output/**/*.pdf binary
 
+
+# Preserve the byte hashes of the previously verified proof and note.
+formal/lean/*.lean -text
+formal/lean/Mard/*.lean -text
+formal/lean/reference/ANALYTICAL_NOTE.md -text
+formal/lean/verification/** -text

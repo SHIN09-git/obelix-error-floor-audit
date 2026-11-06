@@ -1,0 +1,7 @@
+.lake/
+.verification-tools/
+.verification-runs/
+*.olean
+*.ilean
+*.c
+*.o
