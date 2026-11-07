@@ -21,8 +21,45 @@ import Mard
 #print axioms Mard.Counterexample.rich_populationRisk
 #print axioms Mard.Counterexample.population_counterexample
 
+#print axioms Mard.Sampling.fittedRisk_le
+#print axioms Mard.Sampling.fittedRisk_nonneg
+#print axioms Mard.Sampling.fittedRisk_eq_inf
+#print axioms Mard.Sampling.fittedRisk_eq_grouped
+#print axioms Mard.Sampling.fittedRisk_lipschitz
+#print axioms Mard.Sampling.fittedRisk_singleton
+#print axioms Mard.Sampling.fittedRisk_two
+#print axioms Mard.Sampling.fittedRisk_integrable
+#print axioms Mard.Sampling.expected_fixedRisk
+#print axioms Mard.Sampling.expected_fittedRisk_le
+#print axioms Mard.Sampling.expected_empirical_inf_le
+#print axioms Mard.Sampling.iid_product_bias
+#print axioms Mard.Sampling.standardGaussian_abs
+#print axioms Mard.Sampling.gaussian_abs
+#print axioms Mard.Sampling.gaussian_center_risk
+#print axioms Mard.Sampling.gaussian_center_minimizes
+#print axioms Mard.Sampling.gaussian_optimal_risk
+#print axioms Mard.Sampling.gaussian_difference_law
+#print axioms Mard.Sampling.gaussian_two_expected
+#print axioms Mard.Sampling.gaussian_two_bias
+#print axioms Mard.Sampling.gaussian_two_strict
+#print axioms Mard.Sampling.gaussian_product_two
+#print axioms Mard.Sampling.gaussian_two_above_threshold
+
 -- Print the three principal statements and the general population extension.
 #check @Mard.grouped_median_optimal
 #check @Mard.feature_refinement
 #check @Mard.population_feature_refinement
 #check Mard.Counterexample.population_counterexample
+#check @Mard.Sampling.expected_empirical_inf_le
+#check @Mard.Sampling.iid_product_bias
+#check @Mard.Sampling.gaussian_two_bias
+#check @Mard.Sampling.gaussian_two_above_threshold
+
+-- Regression checks for ties and a pair of distinct observations.
+example : Mard.Sampling.fittedRisk ![(4 : ℝ), 4] = 0 := by
+  rw [Mard.Sampling.fittedRisk_two]
+  norm_num
+
+example : Mard.Sampling.fittedRisk ![(-2 : ℝ), 4] = 3 := by
+  rw [Mard.Sampling.fittedRisk_two]
+  norm_num

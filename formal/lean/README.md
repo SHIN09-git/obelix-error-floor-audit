@@ -1,8 +1,8 @@
-# MARD-01：三条核心命题的 Lean 验证
+# MARD-01 的 Lean 验证
 
-本项目形式化 MARD-01 第十一轮 `ANALYTICAL_NOTE.md` 的前三节。数学对象是实数标签、有限记录集和明确给出的概率分布。原分析见仓库中的 [ANALYTICAL_NOTE.md](../../reports/round11/ANALYTICAL_NOTE.md)。
+本项目形式化 MARD-01 第十一轮分析笔记第 1 至 4 节的数学命题。前三节研究分组中位数、输入细化与两点反例。第四节研究用同一批标签拟合中位数造成的抽样偏差。[分析原文](../../reports/round11/ANALYTICAL_NOTE.md)
 
-**2026-11-06 验证结果：三条核心命题全部通过。** 编译将警告视为错误；19 个关键声明的传递公理依赖只包含三个标准公理；本项目六个模块的重放，以及 `ProofCheck` 连同导入依赖的新环境内核重放，均以退出码 0 完成。后者实际耗时约 545 秒。详见 [历史验证记录](verification/RESULT.json) 和原始日志。当前提交的检查结果见 [GitHub Actions](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/lean.yml)。
+完整验证检查 42 条声明的传递公理依赖，其中 23 条属于抽样偏差证明。编译将警告视为错误，官方检查器在新内核环境中重放 `ProofCheck` 的完整导入链。2026-11-06 的历史记录覆盖原先的 19 条声明。[当前验证记录](verification/sampling/RESULT.json) · [前三节历史记录](verification/RESULT.json) · [GitHub 自动验证](https://github.com/SHIN09-git/obelix-error-floor-audit/actions/workflows/lean.yml)
 
 ## 已证明的内容
 
@@ -40,6 +40,28 @@ f(A) = -4 + ((41/100)/(3/500)) (A - 503/500)
 
 `coinMeasure` 用两个各占一半的点质量构造，Lean 同时证明其总质量为一。另将实际积分化为两点平均，证明输入、标签和预测函数的可测性。这里不存在训练过程，也没有把样本拟合成绩当成总体结果。
 
+## 抽样偏差与两次高斯观测
+
+固定一个组的标签分布 $\nu$，假设 $E_\nu|Y|<\infty$。对 $n\ge1$ 个观测记
+
+$$
+\widehat R_n=\inf_{c\in\mathbb R}\frac1n\sum_{i=1}^n|Y_i-c|,
+\qquad R^*(\nu)=\inf_{c\in\mathbb R}E_\nu|Y-c|.
+$$
+
+`fittedRisk` 使用已有的样本中位数。Lean 证明这个统计量等于左式的下确界，也等于把全部记录看作同一组时的 `Mard.optimalRisk`。如果每个观测值至多改变 $\delta$，拟合损失的变化也至多为 $\delta$，因此统计量连续且可测。有限一阶绝对矩保证它可积。[估计量与原定义的对应](Mard/Sampling.lean)
+
+若每个 $Y_i$ 的边缘分布都是 $\nu$，则 $E[\widehat R_n]\le R^*(\nu)$。对任意固定中心 $c$，用样本中位数计算的损失逐样本都不大于用 $c$ 计算的损失。后者的期望等于 $E_\nu|Y-c|$，再对 $c$ 取下确界即得结论。`iid_product_bias` 把它落实到独立同分布样本的乘积概率测度上。单次观测给出 $\widehat R_1=0$。[一般期望不等式与独立抽样版本](Mard/Sampling.lean)
+
+当 $Y_1,Y_2$ 独立且同服从 $N(\mu,\tau^2)$ 时，$\widehat R_2=|Y_1-Y_2|/2$。差值服从 $N(0,2\tau^2)$，正态密度的绝对一阶矩给出经验期望。另由关于 $\mu$ 的反射对称性，Lean 证明 $\mu$ 在所有常数中心中达到总体最优。于是
+
+$$
+E[\widehat R_2]=\frac{\tau}{\sqrt\pi},
+\qquad R^*(\nu)=\tau\sqrt{\frac{2}{\pi}}.
+$$
+
+$\tau=0$ 时两者同为零。$\tau>0$ 时，经验期望为总体最优风险的 $1/\sqrt2$，约低 29.3%。即使在这个模型中，单次样本的拟合损失仍有正概率超过任意给定的有限阈值，包括 $R^*(\nu)$。把该比例用于实测数据，需要另外论证组内的独立高斯抽样假设。[高斯公式、严格不等式与尾部概率](Mard/GaussianSampling.lean)
+
 ## 文件
 
 | 文件 | 内容 |
@@ -49,12 +71,15 @@ f(A) = -4 + ((41/100)/(3/500)) (A - 503/500)
 | `Mard/Refinement.lean` | 有限样本及总体的输入细化定理 |
 | `Mard/Counterexample.lean` | 精确有理常数反例及有限平均形式 |
 | `Mard/PopulationCounterexample.lean` | 明确概率测度、积分和总体最优值 |
-| `Audit.lean` | 19 个关键声明的传递公理依赖和主要定理签名 |
+| `Mard/Sampling.lean` | 经验最小值、同边缘分布观测和独立同分布样本的期望不等式 |
+| `Mard/GaussianSampling.lean` | 高斯总体最优风险、两次独立观测的精确期望与尾部概率 |
+| `Audit.lean` | 42 条声明的公理依赖、主要定理签名及双观测样例 |
 | `ProofCheck.lean` | 新环境内核重放的单一入口 |
-| `verification/RESULT.json` | 最终检查结果、版本和文件哈希 |
-| `verification/axioms.log` | 公理依赖检查的实际输出 |
-| `verification/kernel-replay.log` | 新环境内核重放日志 |
-| `reference/ANALYTICAL_NOTE.md` | 原文只读副本，来源和 SHA-256 见 `reference/SOURCE.json` |
+| `verification/sampling/RESULT.json` | 当前检查结果、版本和证明输入哈希 |
+| `verification/RESULT.json` | 2026-11-06 前三节的历史记录 |
+| `verification/sampling/axioms.log` | 公理依赖检查的实际输出 |
+| `verification/sampling/kernel-replay.log` | 新环境内核重放日志 |
+| `reference/ANALYTICAL_NOTE.md` | 两次验证使用的同一份原文。`reference/SOURCE.json` 记录 11 月 6 日核查前三节时的来源和 SHA-256 |
 
 ## 复现
 
@@ -63,7 +88,7 @@ f(A) = -4 + ((41/100)/(3/500)) (A - 503/500)
 安装 [elan](https://github.com/leanprover/elan) 后，在本目录（`formal/lean`）执行；`lean-toolchain` 会选择固定工具链。首次运行需要联网取得工具链和依赖，保留 `lake-manifest.json` 中的固定版本：
 
 ```text
-lake exe cache get Mathlib.Data.Real.Archimedean Mathlib.Algebra.Order.BigOperators.Group.Finset Mathlib.Algebra.BigOperators.Group.Finset.Basic Mathlib.Tactic.Linarith Mathlib.Tactic.NormNum Mathlib.Tactic.Ring Mathlib.Data.List.Sort Mathlib.Data.List.Induction Mathlib.Data.Fintype.BigOperators Mathlib.MeasureTheory.Integral.Lebesgue.Countable Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+lake exe cache get Mathlib.Data.Real.Archimedean Mathlib.Algebra.Order.BigOperators.Group.Finset Mathlib.Algebra.BigOperators.Group.Finset.Basic Mathlib.Tactic.Linarith Mathlib.Tactic.NormNum Mathlib.Tactic.Ring Mathlib.Data.List.Sort Mathlib.Data.List.Induction Mathlib.Data.Fintype.BigOperators Mathlib.MeasureTheory.Integral.Lebesgue.Countable Mathlib.MeasureTheory.Constructions.BorelSpace.Basic Mathlib.Probability.HasLaw Mathlib.Topology.MetricSpace.Pseudo.Pi Mathlib.MeasureTheory.Constructions.Pi Mathlib.Probability.Distributions.Gaussian.Real Mathlib.MeasureTheory.Integral.Gamma
 lake build
 lake env lean -DwarningAsError=true Audit.lean
 ```
@@ -77,7 +102,7 @@ lake -d .verification-tools/lean4checker build lean4checker
 pwsh -NoProfile -File ./verify.ps1 -CheckerExe ./.verification-tools/lean4checker/.lake/build/bin/lean4checker
 ```
 
-Windows 上为最后的程序路径加 `.exe`。`verify.ps1` 需要 PowerShell 7，从 `PATH` 查找 Lean，也支持 `-LeanBin` 指定工具目录。它重新编译、核对 19 个声明的公理白名单，并执行新环境内核重放；任何一步失败都会返回非零状态。新日志写入忽略的 `.verification-runs/`，不会覆盖随仓库保存的历史证据。
+Windows 上为最后的程序路径加 `.exe`。`verify.ps1` 需要 PowerShell 7，从 `PATH` 查找 Lean，也支持 `-LeanBin` 指定工具目录。它重新编译、核对 42 条声明的公理依赖，并执行新环境内核重放；任何一步失败都会返回非零状态。新日志写入忽略的 `.verification-runs/`，不会覆盖随仓库保存的历史证据。
 
 GitHub 工作流使用相同固定版本，在 Ubuntu 上自动执行这些检查。首次运行的下载和完整重放可能需要数分钟。
 
@@ -91,7 +116,7 @@ lake env <lean4checker的路径> --fresh -v ProofCheck
 
 ## 结论范围
 
-这是前三条数学命题的验证。它不重新审核 OBELiX 的实测记录、分组语义或论文引文，不验证 `0.407752...` 等实测数据派生值，也不形式化原文第四节的抽样偏差和高斯例子。
+验证范围为分析笔记第 1 至 4 节的数学命题。OBELiX 的实测记录、分组语义、论文引文与 `0.407752...` 等数据派生值沿用原数值审计。
 
 组中位数最小值使用评分标签，只是规定函数类内的数学最优值，不是训练算法可实现的测试成绩。反例证明原先给出的条件不足以推出普遍风险门槛，不声称真实电解质存在零误差预测器。形式化也不增加这些已有统计原理的新颖性。
 
@@ -101,21 +126,6 @@ lake env <lean4checker的路径> --fresh -v ProofCheck
 
 ## English summary
 
-This supplement formalizes sections 1–3 of the analytical note in Lean 4.24.0:
-group medians attain the minimum finite-sample MAE, richer features cannot increase
-the optimum under the same scoring population, and an explicit two-point probability
-law has coarse-feature optimum 0.41 and rich-feature optimum zero despite a 1.2%
-feature change. Both lower bounds and attainment are proved. The general feature
-refinement theorem also has a measurable population-risk version.
+The first three sections establish the grouped-median optimum, monotonicity under richer inputs and a population counterexample. Section 4 proves the expected empirical absolute-loss minimum is at most the population minimum for a nonempty sample with a common marginal and a finite first absolute moment. For two independent Gaussian observations with standard deviation $\tau$, these values are $\tau/\sqrt\pi$ and $\tau\sqrt{2/\pi}$ respectively. The proof also covers zero variance and shows that a single fitted value can exceed the population optimum with positive probability at every positive scale.
 
-The checked-in evidence records the completed Windows verification on 6 November
-2026. It includes the 19-declaration transitive axiom audit and a fresh kernel replay
-of `ProofCheck` and its imports. The checker uses the Lean kernel; it is not an
-independent kernel implementation. Proof bytes are preserved in the public package.
-The workflow linked above verifies the current repository revision separately.
-
-Empirical data values, source interpretation, section 4, learnability and peer review
-are outside the formalization's scope. The manuscript's v1.0.0 release is unchanged;
-this is a repository supplement dated 6 November 2026. Code and configuration use
-the repository's MIT license; original documentation and evidence use CC BY 4.0.
-Third-party dependencies retain their own licenses and are not bundled here.
+The full verification checks 42 named declarations and replays the complete import chain in a fresh Lean kernel environment. The earlier 19-declaration receipt is archived separately. The empirical audit and its manuscript have their own versioned release. [Current receipt](verification/sampling/RESULT.json) · [Original receipt](verification/RESULT.json) · [Licensing](../../LICENSING.md)

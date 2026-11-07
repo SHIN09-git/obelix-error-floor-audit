@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "release_version": "1.0.0",
-  "prepared_date": "2026-11-06",
+  "prepared_date": "2026-11-07",
   "release_date": "2026-10-22",
   "repository_url": "https://github.com/SHIN09-git/obelix-error-floor-audit",
   "hash_algorithm": "SHA-256",
@@ -14,8 +14,8 @@
     },
     {
       "path": ".github/workflows/lean.yml",
-      "bytes": 2270,
-      "sha256": "4682890061c21249223b43202b57462bb8919b4c215087293de9b9ab50d46008"
+      "bytes": 2490,
+      "sha256": "c63ea1025e9c48738fec72cc80041c0ad9ae70f06e397584d168421bf608238b"
     },
     {
       "path": ".github/workflows/reproduce.yml",
@@ -29,13 +29,13 @@
     },
     {
       "path": "AUTHORSHIP.md",
-      "bytes": 2985,
-      "sha256": "1d0cc474a7197b0a0a49d583d2b17721663cf23b01fbabf2e1eeae3cb7946fbc"
+      "bytes": 3055,
+      "sha256": "35beb00bc265342a6669b82037302da469cf6f140a8480bfd733aa13066183e2"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1815,
-      "sha256": "85dffccc3b78064dbe6f63f78e7a413475cbbf59b0da9c6319172dd08c3f6640"
+      "bytes": 2205,
+      "sha256": "03b78dbb9747e6bdbcae7e3a01f0a9b51330b77748a8a98b3cc20038b653802e"
     },
     {
       "path": "CITATION.cff",
@@ -59,13 +59,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 4585,
-      "sha256": "7f885a968bdc2671de2fc77cdd63234f1708286e2c4490d21425cfdd5d72589e"
+      "bytes": 4501,
+      "sha256": "add6136cb913f5210e8fcc97ce15053ccc9ee2f87864273727f7bd87d4fbf668"
     },
     {
       "path": "README.md",
-      "bytes": 6497,
-      "sha256": "2ba8f1cf7a876941dd8787478ff520fd170fd781aa4c18d60f5206ec835be109"
+      "bytes": 6501,
+      "sha256": "a78e95e677cdb0d4b285c821a19d2ff78e6367515b2a4482877b1dc10ceebc9e"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -164,13 +164,13 @@
     },
     {
       "path": "formal/lean/Audit.lean",
-      "bytes": 1315,
-      "sha256": "f8f569082f76739e75f6120f3129e65c777c2f23ef772de1e6a119147a54ff7b"
+      "bytes": 2897,
+      "sha256": "3647599ec0badc4d90ba690f7dedf148685eb1f001779fd0275dd641542a9a39"
     },
     {
       "path": "formal/lean/Mard.lean",
-      "bytes": 106,
-      "sha256": "7e4e2cbab5a7277e90208af182a3803bdb500a295ca782a6ca6fed5915aecd12"
+      "bytes": 135,
+      "sha256": "c08a3c5f58af7b1174f89632b418de9f5644e7c6662946878ac54a6562fae853"
     },
     {
       "path": "formal/lean/Mard/Basic.lean",
@@ -181,6 +181,11 @@
       "path": "formal/lean/Mard/Counterexample.lean",
       "bytes": 3554,
       "sha256": "2d26ac4b0a3fc26e86429a18ff8a7180a7b8567e2bababc6c2dde687cbd4ef92"
+    },
+    {
+      "path": "formal/lean/Mard/GaussianSampling.lean",
+      "bytes": 9119,
+      "sha256": "7abc243c65f30c9f897647cdc8f5b59d16dff127bcd960db770aaaf9243adea6"
     },
     {
       "path": "formal/lean/Mard/Median.lean",
@@ -198,14 +203,19 @@
       "sha256": "adafee6fd1c1d831415489ee72f32e4ba7b064a71e7e4ba9dd4af0c951c1fa26"
     },
     {
+      "path": "formal/lean/Mard/Sampling.lean",
+      "bytes": 6452,
+      "sha256": "52dd7c21d9ff79057a0079b72498cc8e6776fb45eeb2b385441fe5628f78339e"
+    },
+    {
       "path": "formal/lean/ProofCheck.lean",
-      "bytes": 222,
-      "sha256": "8a91fbbecca0815acf98db5382b5e78bfdb7db00e348ecd2d2dca61fdd29d2e6"
+      "bytes": 233,
+      "sha256": "0e26bdc9a03fa8b7b00a2a87365539f053cc6f09c9c52e39bf5b42366236e4ae"
     },
     {
       "path": "formal/lean/README.md",
-      "bytes": 9084,
-      "sha256": "47fc1ed49b1b67b541cfd1f1c232553615574c7bbe004b22587e4c54f41c32cf"
+      "bytes": 11102,
+      "sha256": "8cb6d7d31d2bd51cf8e2559c6ba74257253eb41407e77e24ac2f86869f649b2d"
     },
     {
       "path": "formal/lean/lake-manifest.json",
@@ -273,14 +283,34 @@
       "sha256": "007cf0e701947daad8300acacd392181133474051d753a6734775e4f5d261f43"
     },
     {
+      "path": "formal/lean/verification/sampling/RESULT.json",
+      "bytes": 2248,
+      "sha256": "262f57254b837e117973c5aa39259845ee83ac636ffc2a9b70bf4d0c533f7db5"
+    },
+    {
+      "path": "formal/lean/verification/sampling/axioms.log",
+      "bytes": 7663,
+      "sha256": "f2e1a0ef1c88fc252facb7ac5d2a37a260731ad800215bef2fc2cae680352d76"
+    },
+    {
+      "path": "formal/lean/verification/sampling/build.log",
+      "bytes": 168,
+      "sha256": "6008e871762321bc71fd5a608b7b702a27da8d8870e2c2d364ea91234a1bf442"
+    },
+    {
+      "path": "formal/lean/verification/sampling/kernel-replay.log",
+      "bytes": 35,
+      "sha256": "26da320683c385b902514602823a7a07edb6102cdd38ba8ec905b8dd7fe8fea0"
+    },
+    {
       "path": "formal/lean/verification/source-audit.json",
       "bytes": 279,
       "sha256": "dca642922deafe270aaa6db720532636f189b6938ea79fb7506a350bcc6c3e68"
     },
     {
       "path": "formal/lean/verify.ps1",
-      "bytes": 3224,
-      "sha256": "3609b3263540c4933c542562d12a07c788be63cca552a4f569904e78af06dbf2"
+      "bytes": 5099,
+      "sha256": "fd46ecc7e863a9e72ea29f3ad9758d168c7b3308fcac582045fbf7e16edf29cf"
     },
     {
       "path": "output/pdf/obelix_error_floor_audit.pdf",
@@ -374,9 +404,9 @@
     }
   ],
   "repository_addendum": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "path": "formal/lean",
-    "description": "Lean formalization of analytical-note sections 1-3",
+    "description": "Lean formalization of analytical-note sections 1–4, including small-sample bias and exact Gaussian risks",
     "base_manuscript_release": "1.0.0",
     "base_release_assets_changed": false
   }

@@ -41,6 +41,9 @@ jobs:
           Mathlib.Data.Fintype.BigOperators
           Mathlib.MeasureTheory.Integral.Lebesgue.Countable
           Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+          Mathlib.Probability.HasLaw Mathlib.Topology.MetricSpace.Pseudo.Pi
+          Mathlib.MeasureTheory.Constructions.Pi Mathlib.Probability.Distributions.Gaussian.Real
+          Mathlib.MeasureTheory.Integral.Gamma
       - name: Build pinned official kernel checker
         run: |
           git clone --branch v4.24.0 https://github.com/leanprover/lean4checker.git .verification-tools/lean4checker
